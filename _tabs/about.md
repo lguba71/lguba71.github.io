@@ -2,25 +2,47 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+title: About
 ---
 
-I focus on improving machine design, engineering concepts, and manufacturing efficiency.
+I help manufacturing companies, machine builders, and hardware teams turn mechanical ideas into manufacturable CAD models, drawings, and technical documentation.
 
-My main areas:
+My focus areas:
 
-- machine design
-- reliability
-- manufacturability
-- cost reduction
-- quality improvement
-- productivity improvement
+- 3D CAD models
+- machine parts
+- fixtures and jigs
+- manufacturing drawings
+- DFM improvements
+- BOM preparation
+- technical documentation
 
-This site contains engineering notes, projects, and technical articles.
+CAD tools:
 
----
+- Onshape
+- PTC Creo
+- Autodesk Inventor
 
-Beyond engineering:
-- DIY projects
-- Photography
-- Writing
-- [Travel notes](https://lguba71.github.io/TravelNotes/)
+My engineering approach is practical:
+
+- reduce unnecessary complexity
+- improve manufacturability
+- simplify assembly
+- improve reliability
+- create clear documentation for manufacturing
+
+Typical deliverables:
+
+- CAD models
+- production drawings
+- design notes
+- BOMs
+- DFM feedback
+
+Available for freelance mechanical design projects.
+
+## Contact
+
+Portfolio: [lguba71.github.io](https://lguba71.github.io)  
+LinkedIn: [linkedin.com/in/lajos-guba](https://www.linkedin.com/in/lajos-guba)  
+Email: [lguba71@hotmail.com](mailto:lguba71@hotmail.com)
