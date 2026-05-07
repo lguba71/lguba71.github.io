@@ -2,11 +2,9 @@ theme: jekyll-theme-chirpy
 lang: en
 timezone: Europe/Budapest
 
-title: Lajos GUBA
+title: Lajos Guba
 tagline: Freelance Mechanical Design Engineer
-description: >
-   Manufacturable CAD, machine parts, fixtures, and 
-DFM support for hardware and manufacturing teams.
+description: "Manufacturable CAD, machine parts, fixtures, and DFM support for hardware and manufacturing teams."
 url: "https://lguba71.github.io"
 baseurl: ""
 
