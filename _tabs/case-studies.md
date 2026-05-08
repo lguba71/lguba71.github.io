@@ -60,13 +60,13 @@ The machine was designed for assembling two components in a high-volume manufact
 
 ### Images
 
-![Rotary table assembly machine CAD overview](/assets/img/projects/industrial-automation/rotary-table-overview-cad.jpg)
+![Rotary table assembly machine CAD overview](/assets/img/projects/industrial-automation/rotary-table-overview-cad.png)
 *CAD overview of the rotary table assembly machine.*
 
-![Rotary table assembly machine station detail](/assets/img/projects/industrial-automation/rotary-table-detail-cad.png.jpg)
+![Rotary table assembly machine station detail](/assets/img/projects/industrial-automation/rotary-table-detail-cad.png.png)
 *Detailed CAD view showing assembly stations, feeders, and mechanical modules.*
 
-![Built rotary table assembly machine](/assets/img/projects/industrial-automation/rotary-table-built-machine.png.jpg)
+![Built rotary table assembly machine](/assets/img/projects/industrial-automation/rotary-table-built-machine.png.png)
 *Built machine in production environment. Some details are intentionally simplified or omitted.*
 
 </details>
