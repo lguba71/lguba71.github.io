@@ -21,7 +21,7 @@ The projects below show experience with automated assembly equipment, rotary ind
 
 ---
 
-<details open>
+<details open markdown="1">
 <summary><strong>Rotary Table Assembly Machine</strong></summary>
 
 ## Rotary Table Assembly Machine
@@ -66,7 +66,7 @@ Images will be added after file upload and path verification.
 
 ---
 
-<details>
+<details open markdown="1">
 <summary><strong>Vision Inspection Module</strong></summary>
 
 ## Vision Inspection Module
@@ -105,7 +105,7 @@ The module was developed to check the presence and position of contacts in an au
 
 ---
 
-<details>
+<details open markdown="1">
 <summary><strong>Safety Leak Test Station</strong></summary>
 
 ## Safety Leak Test Station
@@ -146,7 +146,7 @@ The station was designed to receive multiple leak test adapters without requirin
 
 ---
 
-<details>
+<details open markdown="1">
 <summary><strong>IDC Contact Insertion Module</strong></summary>
 
 ## IDC Contact Insertion Module
@@ -185,7 +185,7 @@ The module was developed to install a new product variant on an existing product
 
 ---
 
-<details>
+<details open markdown="1">
 <summary><strong>Shiva Rotary Table Semi-Automatic Machine</strong></summary>
 
 ## Shiva Rotary Table Semi-Automatic Machine
