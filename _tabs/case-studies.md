@@ -60,8 +60,6 @@ The machine was designed for assembling two components in a high-volume manufact
 
 ### Images
 
-### Images
-
 ![Rotary table assembly machine CAD overview](/assets/img/projects/industrial-automation/rotary-table-overview-cad.png)
 *CAD overview of the rotary table assembly machine.*
 
