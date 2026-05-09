@@ -5,8 +5,6 @@ order: 4
 title: About
 ---
 
-# About
-
 I am a freelance mechanical design engineer helping manufacturing companies, machine builders, and hardware teams turn mechanical ideas into manufacturable CAD models, production drawings, and technical documentation.
 
 My work is focused on practical mechanical design: parts that can be manufactured, assemblies that are not unnecessarily complicated, and documentation that production teams can actually use.
