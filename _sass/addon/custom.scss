@@ -1,15 +1,30 @@
-/* ---- Alapszínek ---- */
+/* GUBA Engineering brand overrides */
+
+/* ---- Brand color variables ---- */
+
+:root {
+  --guba-primary: #23425F;
+  --guba-secondary: #2E8C8C;
+  --guba-background: #F4F6F8;
+  --guba-text: #1E2430;
+  --guba-accent: #C97A3D;
+  --guba-muted: #5B6B7A;
+  --guba-light-blue: #D8E4EA;
+  --guba-border: #E3E8ED;
+}
+
+/* ---- Base colors ---- */
 
 body {
-  background-color: #F4F6F8 !important;
-  color: #1E2430 !important;
+  background-color: var(--guba-background) !important;
+  color: var(--guba-text) !important;
 }
 
 #main-wrapper,
 #topbar-wrapper,
 #search-result-wrapper,
 #page-wrapper {
-  background-color: #F4F6F8 !important;
+  background-color: var(--guba-background) !important;
 }
 
 /* ---- Sidebar ---- */
@@ -21,25 +36,12 @@ body {
 
 #sidebar .site-title,
 #sidebar .site-title a {
-  color: #23425F !important;
+  color: var(--guba-primary) !important;
   font-weight: 700 !important;
 }
 
 #sidebar .site-subtitle {
-  color: #5B6B7A !important;
-}
-
-#sidebar ul .nav-item.active .nav-link,
-#sidebar .nav-link.active {
-  background-color: #D8E4EA !important;
-  color: #23425F !important;
-  border-radius: 10px !important;
-}
-
-#sidebar .nav-link:hover {
-  background-color: #E1EBF0 !important;
-  color: #2E8C8C !important;
-  border-radius: 10px !important;
+  color: var(--guba-muted) !important;
 }
 
 #sidebar .nav-link,
@@ -48,46 +50,95 @@ body {
   color: #4F5F70 !important;
 }
 
-/* ---- Linkek ---- */
-
-a,
-#main-wrapper a,
-.post-content a {
-  color: #2E8C8C !important;
+#sidebar ul .nav-item.active .nav-link,
+#sidebar .nav-link.active {
+  background-color: var(--guba-light-blue) !important;
+  color: var(--guba-primary) !important;
+  border-radius: 10px !important;
 }
 
-a:hover,
-#main-wrapper a:hover,
-.post-content a:hover {
-  color: #C97A3D !important;
+#sidebar .nav-link:hover {
+  background-color: #E1EBF0 !important;
+  color: var(--guba-secondary) !important;
+  border-radius: 10px !important;
 }
 
-/* ---- Post preview / kártyák ---- */
+/* ---- Headings ---- */
 
+h1,
+h2,
+h3,
+h4 {
+  color: var(--guba-primary) !important;
+}
+
+/* ---- Normal content links ---- */
+
+.post-content a,
+#main-wrapper .post-content a,
+#main-wrapper main a {
+  color: var(--guba-secondary);
+}
+
+.post-content a:hover,
+#main-wrapper .post-content a:hover,
+#main-wrapper main a:hover {
+  color: var(--guba-accent);
+}
+
+/* ---- Home page buttons ---- */
+
+.guba-btn {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border-radius: 8px;
+  text-decoration: none !important;
+  margin-right: 0.5rem;
+}
+
+.guba-btn-primary {
+  background-color: var(--guba-primary) !important;
+  color: #FFFFFF !important;
+  border: 1px solid var(--guba-primary) !important;
+}
+
+.guba-btn-primary:hover {
+  background-color: var(--guba-secondary) !important;
+  color: #FFFFFF !important;
+  border-color: var(--guba-secondary) !important;
+}
+
+.guba-btn-secondary {
+  background-color: #FFFFFF !important;
+  color: var(--guba-primary) !important;
+  border: 1px solid var(--guba-light-blue) !important;
+}
+
+.guba-btn-secondary:hover {
+  color: var(--guba-accent) !important;
+  border-color: var(--guba-accent) !important;
+}
+
+/* ---- Cards ---- */
+
+.card,
 .post-preview,
 .post-preview .card,
-.card,
 .panel-wrapper,
 .content .post-content,
 #post-list .card {
   background-color: #FFFFFF !important;
-  border: 1px solid #E3E8ED !important;
+  border: 1px solid var(--guba-border) !important;
   border-radius: 14px !important;
   box-shadow: 0 4px 14px rgba(35, 66, 95, 0.06) !important;
 }
 
-/* ---- Címek ---- */
-
-h1, h2, h3, h4 {
-  color: #23425F !important;
-}
-
-/* ---- Felső kereső és topbar finomhangolás ---- */
+/* ---- Search / topbar ---- */
 
 #topbar,
 .topbar,
 #search-wrapper {
-  background-color: #F4F6F8 !important;
+  background-color: var(--guba-background) !important;
 }
 
 input,
@@ -97,7 +148,7 @@ input,
   background-color: #FFFFFF !important;
 }
 
-/* ---- Ikonok / footer ---- */
+/* ---- Footer ---- */
 
 footer,
 footer a,
