@@ -112,6 +112,25 @@ The engineering value of the design was therefore not only the CAD model itself,
 - Production-oriented design documentation
 - Design support for manufacturing and assembly
 
+### Visual examples
+
+The following images show selected visual examples from the rotary table assembly machine project. Sensitive product-specific and customer-specific details are intentionally not described.
+
+<figure>
+  <img src="/assets/img/projects/industrial-automation/rotary-table-overview-cad.png" alt="Rotary table assembly machine CAD overview">
+  <figcaption>CAD overview of the rotary table assembly machine concept.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/projects/industrial-automation/rotary-table-detail-cad.png" alt="Rotary table assembly machine CAD detail">
+  <figcaption>CAD detail showing part of the mechanical station layout.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/projects/industrial-automation/rotary-table-built-machine.png" alt="Built rotary table assembly machine">
+  <figcaption>Built machine example, shown as visual project evidence.</figcaption>
+</figure>
+
 ### Confidentiality note
 
 Images and detailed machine geometry are not shown here unless simplified or anonymized versions are available.
