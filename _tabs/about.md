@@ -119,5 +119,5 @@ The best fit is a project where practical mechanical design, production experien
 For professional inquiries, the best channels are:
 
 LinkedIn: [linkedin.com/in/lajos-guba](https://www.linkedin.com/in/lajos-guba)  
-GitHub: [github.com/lguba71](https://github.com/lguba71)
+GitHub: [github.com/lguba71](https://github.com/lguba71)  
 Email: [lguba71@hotmail.com](mailto:lguba71@hotmail.com)  
