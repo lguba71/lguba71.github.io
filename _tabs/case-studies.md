@@ -44,8 +44,8 @@ The examples are written in a simplified portfolio format. They are intended to 
 | Rotary Table Assembly Machine | High-volume automated assembly, rotary indexing concept, feeder integration |
 | Vision Inspection Module | Camera inspection integration, reject handling, retrofit into existing automation |
 | Safety Leak Test Station | Operator-oriented fixture/station design, safety logic, adapter handling |
-| IDC Contact Insertion Module | Contact insertion, unwinder integration, retrofit into an existing line |
-| Shiva Rotary Table Semi-Automatic Machine | Semi-automatic assembly concept, rotary table layout, feeder-supported production |
+| Contact Insertion Module | Contact insertion, unwinder integration, retrofit into an existing line |
+| Rotary Table Semi-Automatic Machine | Semi-automatic assembly concept, rotary table layout, feeder-supported production |
 
 ---
 
@@ -282,7 +282,7 @@ The project is described without customer-specific product geometry or internal 
 <details open markdown="1">
 <summary><strong>IDC Contact Insertion Module</strong></summary>
 
-## IDC Contact Insertion Module
+## Contact Insertion Module
 
 Contact insertion station with unwinder, integrated into an existing linear automation system.
 
@@ -351,7 +351,7 @@ The project description is generalized to avoid sharing product-specific or cust
 <details open markdown="1">
 <summary><strong>Shiva Rotary Table Semi-Automatic Machine</strong></summary>
 
-## Shiva Rotary Table Semi-Automatic Machine
+## Rotary Table Semi-Automatic Machine
 
 Semi-automatic rotary table assembly machine concept for five-component assembly.
 
