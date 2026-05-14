@@ -116,20 +116,36 @@ The engineering value of the design was therefore not only the CAD model itself,
 
 The following images show selected visual examples from the rotary table assembly machine project. Sensitive product-specific and customer-specific details are intentionally not described.
 
-<figure>
-  <img src="/assets/img/projects/industrial-automation/rotary-table-overview-cad.png" alt="Rotary table assembly machine CAD overview">
-  <figcaption>CAD overview of the rotary table assembly machine concept.</figcaption>
-</figure>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; align-items: start; margin: 2rem 0;">
 
-<figure>
-  <img src="/assets/img/projects/industrial-automation/rotary-table-detail-cad.png" alt="Rotary table assembly machine CAD detail">
-  <figcaption>CAD detail showing part of the mechanical station layout.</figcaption>
-</figure>
+  <figure style="margin: 0;">
+    <a href="/assets/img/projects/industrial-automation/rotary-table-overview-cad.png" target="_blank">
+      <img src="/assets/img/projects/industrial-automation/rotary-table-overview-cad.png" alt="Rotary table assembly machine CAD overview" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem;">
+      CAD overview of the rotary table assembly machine concept.
+    </figcaption>
+  </figure>
 
-<figure>
-  <img src="/assets/img/projects/industrial-automation/rotary-table-built-machine.png" alt="Built rotary table assembly machine">
-  <figcaption>Built machine example, shown as visual project evidence.</figcaption>
-</figure>
+  <figure style="margin: 0;">
+    <a href="/assets/img/projects/industrial-automation/rotary-table-detail-cad.png" target="_blank">
+      <img src="/assets/img/projects/industrial-automation/rotary-table-detail-cad.png" alt="Rotary table assembly machine CAD detail" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem;">
+      CAD detail showing part of the mechanical station layout.
+    </figcaption>
+  </figure>
+
+  <figure style="margin: 0;">
+    <a href="/assets/img/projects/industrial-automation/rotary-table-built-machine.png" target="_blank">
+      <img src="/assets/img/projects/industrial-automation/rotary-table-built-machine.png" alt="Built rotary table assembly machine" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem;">
+      Built machine example, shown as visual project evidence.
+    </figcaption>
+  </figure>
+
+</div>
 
 ### Confidentiality note
 
