@@ -1,5 +1,5 @@
 ---
-icon: fas fa-stream
+icon: fas fa-note-sticky
 order: 2
 title: Notes
 ---
