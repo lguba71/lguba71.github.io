@@ -6,14 +6,16 @@
   --guba-primary: #23425F;
   --guba-secondary: #2E8C8C;
   --guba-background: #F4F6F8;
+  --guba-surface: #FFFFFF;
+  --guba-sidebar: #EAF0F4;
   --guba-text: #1E2430;
-  --guba-accent: #C97A3D;
   --guba-muted: #5B6B7A;
+  --guba-accent: #C97A3D;
   --guba-light-blue: #D8E4EA;
   --guba-border: #E3E8ED;
 }
 
-/* ---- Base colors ---- */
+/* ---- Base layout ---- */
 
 body {
   background-color: var(--guba-background) !important;
@@ -30,7 +32,7 @@ body {
 /* ---- Sidebar ---- */
 
 #sidebar {
-  background-color: #EAF0F4 !important;
+  background-color: var(--guba-sidebar) !important;
   border-right: 1px solid #D8E0E8 !important;
 }
 
@@ -57,10 +59,23 @@ body {
   border-radius: 10px !important;
 }
 
+#sidebar .nav-link.active i,
+#sidebar .nav-link.active span {
+  color: var(--guba-primary) !important;
+}
+
 #sidebar .nav-link:hover {
   background-color: #E1EBF0 !important;
   color: var(--guba-secondary) !important;
   border-radius: 10px !important;
+}
+
+#sidebar .sidebar-bottom a {
+  color: var(--guba-muted) !important;
+}
+
+#sidebar .sidebar-bottom a:hover {
+  color: var(--guba-secondary) !important;
 }
 
 /* ---- Headings ---- */
@@ -68,58 +83,24 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   color: var(--guba-primary) !important;
 }
 
 /* ---- Normal content links ---- */
+/* Do not overrule button links too aggressively. */
 
-.post-content a,
-#main-wrapper .post-content a,
-#main-wrapper main a {
+main a:not(.btn):not(.post-tag) {
   color: var(--guba-secondary);
 }
 
-.post-content a:hover,
-#main-wrapper .post-content a:hover,
-#main-wrapper main a:hover {
+main a:not(.btn):not(.post-tag):hover {
   color: var(--guba-accent);
 }
 
-/* ---- Home page buttons ---- */
-
-.guba-btn {
-  display: inline-block;
-  padding: 0.65rem 1rem;
-  border-radius: 8px;
-  text-decoration: none !important;
-  margin-right: 0.5rem;
-}
-
-.guba-btn-primary {
-  background-color: var(--guba-primary) !important;
-  color: #FFFFFF !important;
-  border: 1px solid var(--guba-primary) !important;
-}
-
-.guba-btn-primary:hover {
-  background-color: var(--guba-secondary) !important;
-  color: #FFFFFF !important;
-  border-color: var(--guba-secondary) !important;
-}
-
-.guba-btn-secondary {
-  background-color: #FFFFFF !important;
-  color: var(--guba-primary) !important;
-  border: 1px solid var(--guba-light-blue) !important;
-}
-
-.guba-btn-secondary:hover {
-  color: var(--guba-accent) !important;
-  border-color: var(--guba-accent) !important;
-}
-
-/* ---- Cards ---- */
+/* ---- Home / content cards ---- */
 
 .card,
 .post-preview,
@@ -127,10 +108,44 @@ h4 {
 .panel-wrapper,
 .content .post-content,
 #post-list .card {
-  background-color: #FFFFFF !important;
+  background-color: var(--guba-surface) !important;
   border: 1px solid var(--guba-border) !important;
   border-radius: 14px !important;
   box-shadow: 0 4px 14px rgba(35, 66, 95, 0.06) !important;
+}
+
+/* ---- Tags ---- */
+
+.post-tag,
+.tag {
+  color: var(--guba-primary) !important;
+  border-color: var(--guba-light-blue) !important;
+  background-color: var(--guba-surface) !important;
+}
+
+.post-tag:hover,
+.tag:hover {
+  color: #FFFFFF !important;
+  background-color: var(--guba-secondary) !important;
+  border-color: var(--guba-secondary) !important;
+}
+
+/* ---- Right side panel ---- */
+
+#panel-wrapper {
+  color: var(--guba-muted) !important;
+}
+
+#panel-wrapper .panel-heading {
+  color: var(--guba-primary) !important;
+}
+
+#panel-wrapper a {
+  color: var(--guba-muted) !important;
+}
+
+#panel-wrapper a:hover {
+  color: var(--guba-secondary) !important;
 }
 
 /* ---- Search / topbar ---- */
@@ -145,7 +160,18 @@ input,
 #search-input {
   border: 1px solid #D7E0E7 !important;
   border-radius: 999px !important;
-  background-color: #FFFFFF !important;
+  background-color: var(--guba-surface) !important;
+}
+
+/* ---- Figures / case study galleries ---- */
+
+figure {
+  color: var(--guba-muted);
+}
+
+figcaption {
+  color: var(--guba-muted);
+  text-align: center;
 }
 
 /* ---- Footer ---- */
