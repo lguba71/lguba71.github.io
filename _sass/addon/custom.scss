@@ -18,22 +18,25 @@
 /* ---- Base layout ---- */
 
 body {
-  background-color: var(--guba-background) !important;
-  color: var(--guba-text) !important;
+  background-color: #F4F6F8 !important;
+  color: #1E2430 !important;
 }
 
 #main-wrapper,
 #topbar-wrapper,
 #search-result-wrapper,
 #page-wrapper {
-  background-color: var(--guba-background) !important;
+  background-color: #F4F6F8 !important;
 }
 
-/* ---- Sidebar ---- */
+main,
+#tail-wrapper {
+  background-color: #FFFFFF;
+}
 
 #sidebar {
-  background-color: var(--guba-sidebar) !important;
-  border-right: 1px solid #D8E0E8 !important;
+  background-color: #EAF0F4 !important;
+  border-right: 1px solid #D8E4EA !important;
 }
 
 #sidebar .site-title,
