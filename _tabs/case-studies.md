@@ -225,7 +225,7 @@ The following images show selected visual examples from the rotary table assembl
 
   <figure style="margin: 0;">
     <a href="/assets/img/projects/industrial-automation/vision-inspection-module-overview-cad.png" target="_blank">
-      <img src="/assets/img/projects/industrial-automation/rotary-table-overview-cad.png" alt="Rotary table assembly machine CAD overview" style="width: 100%; height: auto; border-radius: 8px;">
+      <img src="/assets/img/projects/industrial-automation/vision-inspection-module-overview-cad.png" alt="Rotary table assembly machine CAD overview" style="width: 100%; height: auto; border-radius: 8px;">
     </a>
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem;">
       CAD overview of the rotary table assembly machine concept.
@@ -234,7 +234,7 @@ The following images show selected visual examples from the rotary table assembl
 
   <figure style="margin: 0;">
     <a href="/assets/img/projects/industrial-automation/vision-inspection-module-layout-cad.png" target="_blank">
-      <img src="/assets/img/projects/industrial-automation/rotary-table-detail-cad.png" alt="Rotary table assembly machine CAD detail" style="width: 100%; height: auto; border-radius: 8px;">
+      <img src="/assets/img/projects/industrial-automation/vision-inspection-module-layout-cad.png" alt="Rotary table assembly machine CAD detail" style="width: 100%; height: auto; border-radius: 8px;">
     </a>
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem;">
       CAD detail showing part of the mechanical station layout.
@@ -243,7 +243,7 @@ The following images show selected visual examples from the rotary table assembl
 
   <figure style="margin: 0;">
     <a href="/assets/img/projects/industrial-automation/vision-inspection-module-built-machine.png" target="_blank">
-      <img src="/assets/img/projects/industrial-automation/rotary-table-built-machine.png" alt="Built rotary table assembly machine" style="width: 100%; height: auto; border-radius: 8px;">
+      <img src="/assets/img/projects/industrial-automation/vision-inspection-module-built-machine.png" alt="Built rotary table assembly machine" style="width: 100%; height: auto; border-radius: 8px;">
     </a>
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem;">
       Built machine example, shown as visual project evidence.
