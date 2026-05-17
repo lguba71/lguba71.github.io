@@ -217,6 +217,42 @@ A well-integrated inspection module can improve process reliability by detecting
 - Production documentation support
 - Design notes for installation and manufacturing
 
+### Visual examples
+
+The following images show selected visual examples from the rotary table assembly machine project. Sensitive product-specific and customer-specific details are intentionally not described.
+
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; align-items: start; margin: 2rem 0;">
+
+  <figure style="margin: 0;">
+    <a href="/assets/img/projects/industrial-automation/vision-inspection-module-overview-cad.png" target="_blank">
+      <img src="/assets/img/projects/industrial-automation/rotary-table-overview-cad.png" alt="Rotary table assembly machine CAD overview" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem;">
+      CAD overview of the rotary table assembly machine concept.
+    </figcaption>
+  </figure>
+
+  <figure style="margin: 0;">
+    <a href="/assets/img/projects/industrial-automation/vision-inspection-module-layout-cad.png" target="_blank">
+      <img src="/assets/img/projects/industrial-automation/rotary-table-detail-cad.png" alt="Rotary table assembly machine CAD detail" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem;">
+      CAD detail showing part of the mechanical station layout.
+    </figcaption>
+  </figure>
+
+  <figure style="margin: 0;">
+    <a href="/assets/img/projects/industrial-automation/vision-inspection-module-built-machine.png" target="_blank">
+      <img src="/assets/img/projects/industrial-automation/rotary-table-built-machine.png" alt="Built rotary table assembly machine" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem;">
+      Built machine example, shown as visual project evidence.
+    </figcaption>
+  </figure>
+
+</div>
+
+
 ### Confidentiality note
 
 The case study is intentionally simplified and does not include customer-specific product or machine details.
