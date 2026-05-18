@@ -332,7 +332,7 @@ The project is described without customer-specific product geometry or internal 
 ---
 
 <details open markdown="1">
-<summary><strong>IDC Contact Insertion Module</strong></summary>
+<summary><strong>Contact Insertion Module</strong></summary>
 
 ## Contact Insertion Module
 
@@ -401,7 +401,7 @@ The project description is generalized to avoid sharing product-specific or cust
 ---
 
 <details open markdown="1">
-<summary><strong>Shiva Rotary Table Semi-Automatic Machine</strong></summary>
+<summary><strong>Rotary Table Semi-Automatic Machine</strong></summary>
 
 ## Rotary Table Semi-Automatic Machine
 
