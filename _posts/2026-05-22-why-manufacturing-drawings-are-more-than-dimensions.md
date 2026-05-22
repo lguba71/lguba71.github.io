@@ -8,6 +8,8 @@ A manufacturing drawing is not just a dimensioned view of a CAD model.
 
 It is a communication tool between design, manufacturing, inspection, and assembly.
 
+![Manufacturing drawing as the engineering interface](/assets/img/posts/manufacturing-drawing-engineering-interface.png)
+
 A weak drawing can create problems even when the 3D model is correct.
 
 Typical drawing problems include:
@@ -47,3 +49,4 @@ It should answer practical questions:
 Good drawings reduce ambiguity.
 
 And in manufacturing, ambiguity usually becomes cost.
+
