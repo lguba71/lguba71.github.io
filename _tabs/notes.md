@@ -12,6 +12,7 @@ These notes started as blog-style posts, but their purpose is to support the eng
 
 ## Published notes
 
+- [Why Manufacturing Drawings Are More Than Dimensions](/posts/why-manufacturing-drawings-are-more-than-dimensions/)
 - [Why Fixtures and Jigs Are Often Underrated](/posts/why-fixtures-and-jigs-are-often-underrated/)
 - [Small Mechanical Improvements Can Have Large Production Effects](/posts/small-mechanical-improvements-can-have-large-production-effects/)
 - [Why Simpler Machine Concepts Often Win](/posts/first-post/)
@@ -21,7 +22,6 @@ These notes started as blog-style posts, but their purpose is to support the eng
 Future notes may cover:
 
 - fixture and jig design principles,
-- manufacturing drawing quality,
 - DFM decisions,
 - CAD model cleanup,
 - assembly repeatability,
