@@ -10,6 +10,8 @@ It also has to be designed for assembly.
 
 Assembly problems often appear late, but their causes are usually created early in the design process.
 
+![Design for assembly starts before the drawing](/assets/img/posts/design-for-assembly-starts-before-the-drawing.png)
+
 Typical issues include:
 
 - fasteners that are difficult to access
@@ -33,7 +35,7 @@ But on the shop floor, they become real costs:
 
 Good design for assembly starts before the drawing is created.
 
-I usually check:
+At this stage, I usually check:
 
 - how the part will be handled
 - how it will be located
@@ -41,8 +43,8 @@ I usually check:
 - what tools are needed
 - whether the operator has enough access
 - whether the assembly sequence is obvious
-- whether the design prevents incorrect assembly
+- whether the design helps prevent incorrect assembly
 
 A good mechanical design should not only work in CAD.
 
-It should be easy to build correctly.
+It should be easy to build correctly, repeatedly, and without unnecessary explanation.
