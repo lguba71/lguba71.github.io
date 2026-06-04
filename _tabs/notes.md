@@ -12,6 +12,7 @@ These notes started as blog-style posts, but their purpose is to support the eng
 
 ## Published notes
 
+- [Design for Assembly Starts Before the Drawing](/posts/design-for-assembly-starts-before-the-drawing/)
 - [Why Manufacturing Drawings Are More Than Dimensions](/posts/why-manufacturing-drawings-are-more-than-dimensions/)
 - [Why Fixtures and Jigs Are Often Underrated](/posts/why-fixtures-and-jigs-are-often-underrated/)
 - [Small Mechanical Improvements Can Have Large Production Effects](/posts/small-mechanical-improvements-can-have-large-production-effects/)
@@ -24,7 +25,6 @@ Future notes may cover:
 - fixture and jig design principles,
 - DFM decisions,
 - CAD model cleanup,
-- assembly repeatability,
 - special-purpose machine concepts,
 - automation retrofit challenges,
 - tolerance thinking,
