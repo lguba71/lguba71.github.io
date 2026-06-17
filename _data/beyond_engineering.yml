@@ -3,7 +3,7 @@
 
 # Later additions:
 # - title: Adobe Stock
-#   url: ""
+#   url: "https://stock.adobe.com/contributor/213283835"
 #
 # - title: Amazon books
 #   url: ""
@@ -11,5 +11,5 @@
 # - title: Reddit DIY
 #   url: ""
 #
-# - title: RSS feed
-#   url: "/feed.xml"
+- title: RSS feed
+  url: "/feed.xml"
