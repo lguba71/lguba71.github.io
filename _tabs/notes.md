@@ -35,3 +35,5 @@ Future notes may cover:
 The goal is to publish short, practical engineering notes periodically, roughly every two weeks.
 
 The focus is not high-volume blogging. The focus is useful engineering thinking.
+
+The earlier notes are in the [archives](/archives/).
