@@ -12,11 +12,11 @@ These notes started as blog-style posts, but their purpose is to support the eng
 
 ## Published notes
 
+- [The Hidden Cost of Overcomplicated Machine Parts](/posts/the-hidden-cost-of-overcomplicated-machine-parts/)
 - [Design for Assembly Starts Before the Drawing](/posts/design-for-assembly-starts-before-the-drawing/)
 - [Why Manufacturing Drawings Are More Than Dimensions](/posts/why-manufacturing-drawings-are-more-than-dimensions/)
 - [Why Fixtures and Jigs Are Often Underrated](/posts/why-fixtures-and-jigs-are-often-underrated/)
 - [Small Mechanical Improvements Can Have Large Production Effects](/posts/small-mechanical-improvements-can-have-large-production-effects/)
-- [Why Simpler Machine Concepts Often Win](/posts/first-post/)
 
 ## Planned topics
 
