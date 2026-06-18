@@ -1,0 +1,25 @@
+A CAD model can be geometrically correct and still be difficult to use.
+
+The problem is often not the shape itself.
+
+The problem is unclear design intent.
+
+A hole may exist for fastening, locating, adjustment, inspection, or cable routing.
+
+A slot may exist for tolerance compensation, assembly adjustment, or manufacturing flexibility.
+
+A radius may exist for strength, tool access, safety, or stress reduction.
+
+Without clear design intent, the next person working with the model has to guess.
+
+And guessing is rarely a good basis for manufacturing, assembly, inspection, or later modification.
+
+Useful CAD models are not only clean geometries.
+
+They should also preserve the logic behind the design.
+
+I wrote a short engineering note about why clear design intent matters in mechanical design:
+
+https://lguba71.github.io/posts/why-clear-design-intent-matters-in-mechanical-design/
+
+#MechanicalDesign #CAD #DesignIntent #Manufacturing #EngineeringDesign #ProductionEngineering
