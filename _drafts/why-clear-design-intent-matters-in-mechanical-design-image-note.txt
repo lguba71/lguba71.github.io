@@ -1,0 +1,10 @@
+Image file for this draft:
+
+Repository path:
+/assets/img/posts/clear-design-intent-mechanical-design.png
+
+Markdown reference:
+![Clear design intent in mechanical design](/assets/img/posts/clear-design-intent-mechanical-design.png)
+
+Note:
+The image has already been uploaded manually to the repository.
