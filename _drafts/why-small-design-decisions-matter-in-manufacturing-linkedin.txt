@@ -1,0 +1,26 @@
+Small design decisions often look insignificant in CAD.
+
+A hole position.
+A chamfer.
+A radius.
+A tolerance.
+A fastener direction.
+A surface finish note.
+
+But in manufacturing, inspection, assembly and maintenance, these details can create very real effects.
+
+A small design choice can decide whether a part is easy to fixture or difficult to locate.
+
+It can decide whether a standard tool can be used or a special machining strategy is needed.
+
+It can decide whether assembly is straightforward or uncomfortable for the operator.
+
+Manufacturing-focused mechanical design is not only about the main concept.
+
+It is also about the small decisions that reduce friction later in the process.
+
+I wrote a short engineering note about why small design decisions matter in manufacturing:
+
+https://lguba71.github.io/posts/why-small-design-decisions-matter-in-manufacturing/
+
+#MechanicalDesign #Manufacturing #DFM #MachineDesign #EngineeringDesign #ProductionEngineering
