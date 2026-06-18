@@ -1,0 +1,10 @@
+Image file for this draft:
+
+Repository path:
+/assets/img/posts/small-design-decisions-manufacturing-effects.png
+
+Markdown reference:
+![Small design decisions can have large manufacturing effects](/assets/img/posts/small-design-decisions-manufacturing-effects.png)
+
+Note:
+Upload the PNG manually to assets/img/posts because the current GitHub connector write action is used here only for text files.
