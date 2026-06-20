@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Külső gépész tervezői kapacitás gyártási és automatizálási projektekhez"
-description: "Projektalapú gépész tervezési támogatás gyártó cégeknek, célgépépítőknek és automatizálási projektekhez: CAD-modellek, gyártási rajzok, készülékek, DFM és célgép-részegységek."
+title: "Gépész tervezési támogatás gyártó cégeknek"
+description: "Projektalapú gépész tervezési támogatás gyártó cégeknek, célgépépítőknek és automatizálási projektekhez: CAD-modellek, gyártási rajzok, készülékek, célgép-részegységek, valamint régi papírrajzok, 2D rajzok és hiányos műszaki dokumentációk rendezése."
 lang: hu
 permalink: /hu/
 ---
@@ -9,13 +9,17 @@ permalink: /hu/
 <section style="margin-bottom: 2.5rem;">
 
   <p style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; color: #5B6B7A; margin-bottom: 0.75rem;">
-    Gépész tervezési támogatás · CAD · készülékek · célgépek · DFM
+    Gépész tervezési támogatás · CAD · készülékek · célgépek · dokumentációrendezés
+  </p>
+
+  <p style="font-size: 1.35rem; line-height: 1.45; margin-bottom: 1rem; color: #12395B;">
+    Külső gépész tervezői kapacitás gyártási és automatizálási projektekhez.
   </p>
 
   <p>
     Gyártható CAD-modellek, gyártási rajzok, készülékek, befogók, jigek,
-    célgép-részegységek és DFM-támogatás gyártó cégeknek, célgépépítőknek
-    és automatizálási projektekhez.
+    célgép-részegységek, valamint régi papírrajzok, 2D dokumentációk és hiányos
+    műszaki anyagok rendezése gyártó cégeknek, célgépépítőknek és automatizálási projektekhez.
   </p>
 
   <p style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.75rem;">
@@ -47,7 +51,7 @@ permalink: /hu/
     <li>Ha célgép- vagy automatizálási projekthez kell gépészeti támogatás.</li>
     <li>Ha készüléket, befogót, jiget vagy gyártási segédeszközt kell tervezni.</li>
     <li>Ha meglévő gépet, állomást vagy részegységet kell módosítani.</li>
-    <li>Ha gyártási rajzokra, rendezett CAD-modellekre vagy DFM-visszajelzésre van szükség.</li>
+    <li>Ha gyártási rajzokra, rendezett CAD-modellekre vagy régi / hiányos dokumentációk feldolgozására van szükség.</li>
   </ul>
 
 </section>
@@ -56,7 +60,7 @@ permalink: /hu/
 
   <h2>Fő szolgáltatási területek</h2>
 
-  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem;">
 
     <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff;">
       <h3>Gyártható CAD</h3>
@@ -71,6 +75,11 @@ permalink: /hu/
     <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff;">
       <h3>Célgép-támogatás</h3>
       <p>Gépészeti támogatás célgép-részegységekhez, automatizálási modulokhoz és meglévő berendezések módosításához.</p>
+    </div>
+
+    <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff;">
+      <h3>Dokumentáció rendezése</h3>
+      <p>Régi papírrajzok, 2D rajzok és hiányos műszaki dokumentációk áttekintése, rendszerezése és CAD-alapú továbbépítése.</p>
     </div>
 
   </div>
