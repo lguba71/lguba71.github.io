@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Magyar"
-description: "Külső gépész tervezői kapacitás gyártó cégeknek, célgépépítőknek és automatizálási projektekhez."
+title: "Külső gépész tervezői kapacitás gyártási és automatizálási projektekhez"
+description: "Projektalapú gépész tervezési támogatás gyártó cégeknek, célgépépítőknek és automatizálási projektekhez: CAD-modellek, gyártási rajzok, készülékek, DFM és célgép-részegységek."
 lang: hu
 permalink: /hu/
 ---
@@ -12,10 +12,6 @@ permalink: /hu/
     Gépész tervezési támogatás · CAD · készülékek · célgépek · DFM
   </p>
 
-  <h1 style="font-size: 2.2rem; line-height: 1.2; margin-bottom: 1rem;">
-    Külső gépész tervezői kapacitás gyártási és automatizálási projektekhez.
-  </h1>
-
   <p>
     Gyártható CAD-modellek, gyártási rajzok, készülékek, befogók, jigek,
     célgép-részegységek és DFM-támogatás gyártó cégeknek, célgépépítőknek
@@ -23,12 +19,16 @@ permalink: /hu/
   </p>
 
   <p style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.75rem;">
+    <a href="#szolgaltatasok" style="display: inline-flex; align-items: center; justify-content: center; min-width: 150px; padding: 0.7rem 1.05rem; border-radius: 8px; background: #ffffff; color: #23425F; border: 1px solid #D8E4EA; text-decoration: none; font-weight: 500;">
+      Szolgáltatások
+    </a>
+
     <a href="/case-studies/" style="display: inline-flex; align-items: center; justify-content: center; min-width: 150px; padding: 0.7rem 1.05rem; border-radius: 8px; background: #ffffff; color: #23425F; border: 1px solid #D8E4EA; text-decoration: none; font-weight: 500;">
       Esettanulmányok
     </a>
 
-    <a href="/about/" style="display: inline-flex; align-items: center; justify-content: center; min-width: 150px; padding: 0.7rem 1.05rem; border-radius: 8px; background: #ffffff; color: #23425F; border: 1px solid #D8E4EA; text-decoration: none; font-weight: 500;">
-      Rólam
+    <a href="#kapcsolat" style="display: inline-flex; align-items: center; justify-content: center; min-width: 150px; padding: 0.7rem 1.05rem; border-radius: 8px; background: #ffffff; color: #23425F; border: 1px solid #D8E4EA; text-decoration: none; font-weight: 500;">
+      Kapcsolat
     </a>
 
     <a href="/" style="display: inline-flex; align-items: center; justify-content: center; min-width: 150px; padding: 0.7rem 1.05rem; border-radius: 8px; background: #ffffff; color: #23425F; border: 1px solid #D8E4EA; text-decoration: none; font-weight: 500;">
@@ -52,7 +52,7 @@ permalink: /hu/
 
 </section>
 
-<section style="margin: 2.5rem 0;">
+<section id="szolgaltatasok" style="margin: 2.5rem 0;">
 
   <h2>Fő szolgáltatási területek</h2>
 
@@ -77,7 +77,7 @@ permalink: /hu/
 
 </section>
 
-<section style="margin: 2.5rem 0;">
+<section id="kapcsolat" style="margin: 2.5rem 0;">
 
   <h2>Kapcsolat</h2>
 
