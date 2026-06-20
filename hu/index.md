@@ -1,19 +1,19 @@
 ---
 layout: page
-title: "Gépész tervezési támogatás gyártó cégeknek"
-description: "Projektalapú gépész tervezési támogatás gyártó cégeknek, célgépépítőknek és automatizálási projektekhez: CAD-modellek, gyártási rajzok, készülékek, célgép-részegységek, valamint régi papírrajzok, 2D rajzok és hiányos műszaki dokumentációk rendezése."
+title: "Kezdőlap"
+description: "Projektalapú gépész tervezési támogatás gyártó cégeknek, célgépépítőknek és automatizálási projektekhez: CAD-modellek, gyártási rajzok, készülékek, célgép-részegységek, DFM és régi vagy hiányos műszaki dokumentációk rendezése."
 lang: hu
 permalink: /hu/
 ---
 
 <section style="margin-bottom: 2.5rem;">
 
-  <p style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; color: #5B6B7A; margin-bottom: 0.75rem;">
-    Gépész tervezési támogatás · CAD · készülékek · célgépek · dokumentációrendezés
-  </p>
-
   <p style="font-size: 1.35rem; line-height: 1.45; margin-bottom: 1rem; color: #12395B;">
     Külső gépész tervezői kapacitás gyártási és automatizálási projektekhez.
+  </p>
+
+  <p style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; color: #5B6B7A; margin-bottom: 0.75rem;">
+    Gépész tervezési támogatás · CAD · készülékek · célgépek · DFM
   </p>
 
   <p>
