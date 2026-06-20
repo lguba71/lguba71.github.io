@@ -1,5 +1,11 @@
 <!-- The trending tags list -->
 
+{% assign is_hu_page = false %}
+{% assign page_prefix = page.url | slice: 0, 4 %}
+{% if page.lang == 'hu' or page_prefix == '/hu/' %}
+  {% assign is_hu_page = true %}
+{% endif %}
+
 {% assign MAX = 10 %}
 
 {% assign size_list = '' | split: '' %}
@@ -35,7 +41,7 @@
 
 {% if trending_tags.size > 0 %}
   <section>
-    <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.trending_tags -}}</h2>
+    <h2 class="panel-heading">{% if is_hu_page %}Kiemelt témák{% else %}{{- site.data.locales[include.lang].panel.trending_tags -}}{% endif %}</h2>
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       {% for tag_name in trending_tags %}
         {% assign url = tag_name | slugify | url_encode | prepend: '/tags/' | append: '/' %}
@@ -47,7 +53,7 @@
 
 {% if site.data.beyond_engineering and site.data.beyond_engineering.size > 0 %}
   <section>
-    <h2 class="panel-heading">Beyond Engineering</h2>
+    <h2 class="panel-heading">{% if is_hu_page %}Személyes projektek{% else %}Beyond Engineering{% endif %}</h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
       {% for item in site.data.beyond_engineering %}
         {% if item.url and item.url != empty %}
