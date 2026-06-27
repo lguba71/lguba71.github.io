@@ -40,11 +40,43 @@ permalink: /hu/jegyzetek/
     <p>Jelenleg nincs megjelent magyar jegyzet.</p>
   {% endif %}
 
-  {% if hu_notes.size > 5 %}
-    <p>
-      <a href="{{ '/hu/archivum/' | relative_url }}">Régebbi magyar jegyzetek az archívumban</a>
-    </p>
-  {% endif %}
+  <p>
+    <a href="{{ '/hu/archivum/' | relative_url }}">Régebbi magyar jegyzetek az archívumban</a>
+  </p>
+
+</section>
+
+<section style="margin: 2rem 0;">
+
+  <h2>Jövőbeli témák</h2>
+
+  <p>A következő magyar jegyzetek várhatóan ilyen témák köré épülnek:</p>
+
+  <ul>
+    <li>gyártható CAD-modellek és használható műszaki alapok,</li>
+    <li>régi papírrajzok, 2D rajzok és hiányos dokumentációk feldolgozása,</li>
+    <li>készülékek, jigek, befogók és gyártási segédeszközök tervezése,</li>
+    <li>célgép-részegységek és meglévő berendezések gépészeti módosítása,</li>
+    <li>gyártási rajzok, BOM-ok és műszaki dokumentáció rendezése,</li>
+    <li>külső mérnöki kapacitás bevonása gyártási és automatizálási projektekbe.</li>
+  </ul>
+
+</section>
+
+<section style="margin: 2rem 0;">
+
+  <h2>Megjelenési ritmus</h2>
+
+  <p>
+    A cél havi egy rövid, gyakorlati magyar szakmai jegyzet közzététele.
+    A fókusz nem a nagy mennyiségű blogolás, hanem az üzletileg és műszakilag
+    hasznos témák bemutatása magyar gyártó cégek, célgépépítők és automatizálási
+    projektek számára.
+  </p>
+
+  <p>
+    A régebbi magyar jegyzetek a <a href="{{ '/hu/archivum/' | relative_url }}">magyar archívumban</a> találhatók.
+  </p>
 
 </section>
 
