@@ -28,6 +28,21 @@ permalink: /hu/jegyzetek/
 
   <article style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-bottom: 1rem;">
     <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
+      2026.05.30 · Dokumentáció rendezése
+    </p>
+    <h3 style="margin-top: 0;">
+      <a href="/hu/jegyzetek/mit-lehet-kezdeni-regi-rajzokkal-es-hianyos-muszaki-dokumentacioval/">
+        Mit lehet kezdeni régi rajzokkal és hiányos műszaki dokumentációval?
+      </a>
+    </h3>
+    <p>
+      Régi rajzok, szkennelt PDF-ek, hiányos 2D dokumentációk és meglévő alkatrészek
+      feldolgozása használható CAD-modellé, gyártási rajzzá és műszaki alappá.
+    </p>
+  </article>
+
+  <article style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-bottom: 1rem;">
+    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
       2026.04.25 · Kapacitástervezés
     </p>
     <h3 style="margin-top: 0;">
