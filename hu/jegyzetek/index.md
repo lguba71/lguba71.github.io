@@ -6,6 +6,8 @@ lang: hu
 permalink: /hu/jegyzetek/
 ---
 
+{% assign hu_notes = site.pages | where: "lang", "hu" | where: "layout", "post" | where_exp: "item", "item.url contains '/hu/jegyzetek/'" | sort: "date" | reverse %}
+
 <section style="margin-bottom: 2rem;">
 
   <p style="font-size: 1.2rem; line-height: 1.5; color: #12395B;">
@@ -24,74 +26,32 @@ permalink: /hu/jegyzetek/
 
 <section style="margin: 2rem 0;">
 
-  <h2>Megjelent jegyzetek</h2>
+  <h2>Legutóbbi jegyzetek</h2>
 
-  <article style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-bottom: 1rem;">
-    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
-      2026.06.27 · Retrofit módosítás
-    </p>
-    <h3 style="margin-top: 0;">
-      <a href="/hu/jegyzetek/retrofit-gepeszeti-modositas-miert-nehezebb-mint-uj-gepet-tervezni/">
-        Retrofit gépészeti módosítás: miért nehezebb, mint új gépet tervezni?
-      </a>
-    </h3>
-    <p>
-      Miért kockázatosabb egy meglévő gép, készülék vagy gépegység módosítása,
-      mint amilyennek elsőre látszik?
-    </p>
-  </article>
+  {% if hu_notes.size > 0 %}
+    <ul>
+      {% for note in hu_notes limit:5 %}
+        <li>
+          <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>Jelenleg nincs megjelent magyar jegyzet.</p>
+  {% endif %}
 
-  <article style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-bottom: 1rem;">
-    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
-      2026.05.30 · Dokumentáció rendezése
-    </p>
-    <h3 style="margin-top: 0;">
-      <a href="/hu/jegyzetek/mit-lehet-kezdeni-regi-rajzokkal-es-hianyos-muszaki-dokumentacioval/">
-        Mit lehet kezdeni régi rajzokkal és hiányos műszaki dokumentációval?
-      </a>
-    </h3>
+  {% if hu_notes.size > 5 %}
     <p>
-      Régi rajzok, szkennelt PDF-ek, hiányos 2D dokumentációk és meglévő alkatrészek
-      feldolgozása használható CAD-modellé, gyártási rajzzá és műszaki alappá.
+      <a href="{{ '/hu/archivum/' | relative_url }}">Régebbi magyar jegyzetek az archívumban</a>
     </p>
-  </article>
-
-  <article style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-bottom: 1rem;">
-    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
-      2026.04.25 · Kapacitástervezés
-    </p>
-    <h3 style="margin-top: 0;">
-      <a href="/hu/jegyzetek/kulso-mernoki-kapacitas-mikor-jobb-mint-uj-alkalmazottat-keresni/">
-        Külső mérnöki kapacitás: mikor jobb, mint új alkalmazottat keresni?
-      </a>
-    </h3>
-    <p>
-      Gazdasági és kapacitástervezési szempontok: mikor racionálisabb külső mérnöki kapacitást bevonni,
-      mint új teljes állású mérnököt keresni?
-    </p>
-  </article>
-
-  <article style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-bottom: 1rem;">
-    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
-      2026.03.28 · Szolgáltatásmagyarázat
-    </p>
-    <h3 style="margin-top: 0;">
-      <a href="/hu/jegyzetek/mikor-erdemes-kulso-gepesztervezot-bevonni-egy-celgep-projektbe/">
-        Mikor érdemes külső gépésztervezőt bevonni egy célgép-projektbe?
-      </a>
-    </h3>
-    <p>
-      Mikor segíthet egy jól lehatárolt külső gépésztervezői kapacitás gyártási,
-      célgépépítési vagy automatizálási projektekben?
-    </p>
-  </article>
+  {% endif %}
 
 </section>
 
 <section style="margin: 2rem 0;">
 
   <p>
-    <a href="/hu/">← Vissza a magyar kezdőlapra</a>
+    <a href="{{ '/hu/' | relative_url }}">← Vissza a magyar kezdőlapra</a>
   </p>
 
 </section>
