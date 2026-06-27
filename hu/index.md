@@ -9,14 +9,10 @@ permalink: /hu/
 <section style="margin-bottom: 2.5rem;">
 
   <p style="font-size: 1.35rem; line-height: 1.45; margin-bottom: 1rem; color: #12395B;">
-    Külső gépész tervezői kapacitás gyártási és automatizálási projektekhez.
-  </p>
-
-  <p style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; color: #5B6B7A; margin-bottom: 0.75rem;">
     Gépész tervezési támogatás · CAD · készülékek · célgépek · DFM
   </p>
 
-  <p>
+   <p>
     Gyártható CAD-modellek, gyártási rajzok, készülékek, befogók, jigek,
     célgép-részegységek, valamint régi papírrajzok, 2D dokumentációk és hiányos
     műszaki anyagok rendezése gyártó cégeknek, célgépépítőknek és automatizálási projektekhez.
