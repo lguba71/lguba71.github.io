@@ -27,8 +27,8 @@ permalink: /hu/
       Szolgáltatások
     </a>
 
-    <a href="/case-studies/" style="display: inline-flex; align-items: center; justify-content: center; min-width: 150px; padding: 0.7rem 1.05rem; border-radius: 8px; background: #ffffff; color: #23425F; border: 1px solid #D8E4EA; text-decoration: none; font-weight: 500;">
-      Esettanulmányok
+    <a href="/hu/jegyzetek/" style="display: inline-flex; align-items: center; justify-content: center; min-width: 150px; padding: 0.7rem 1.05rem; border-radius: 8px; background: #ffffff; color: #23425F; border: 1px solid #D8E4EA; text-decoration: none; font-weight: 500;">
+      Jegyzetek
     </a>
 
     <a href="#kapcsolat" style="display: inline-flex; align-items: center; justify-content: center; min-width: 150px; padding: 0.7rem 1.05rem; border-radius: 8px; background: #ffffff; color: #23425F; border: 1px solid #D8E4EA; text-decoration: none; font-weight: 500;">
@@ -83,6 +83,36 @@ permalink: /hu/
     </div>
 
   </div>
+
+</section>
+
+<section id="jegyzetek" style="margin: 2.5rem 0;">
+
+  <h2>Magyar szakmai jegyzetek</h2>
+
+  <p>
+    Gyártástámogató, szolgáltatásmagyarázó és gyakorlati szakmai cikkek magyar gyártócégeknek,
+    célgépépítőknek és automatizálási projektekhez.
+  </p>
+
+  <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
+    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
+      2026.03.28 · Szolgáltatásmagyarázat
+    </p>
+    <h3 style="margin-top: 0;">
+      <a href="/hu/jegyzetek/mikor-erdemes-kulso-gepesztervezot-bevonni-egy-celgep-projektbe/">
+        Mikor érdemes külső gépésztervezőt bevonni egy célgép-projektbe?
+      </a>
+    </h3>
+    <p>
+      Mikor segíthet egy jól lehatárolt külső gépésztervezői kapacitás gyártási,
+      célgépépítési vagy automatizálási projektekben?
+    </p>
+  </div>
+
+  <p style="margin-top: 1rem;">
+    <a href="/hu/jegyzetek/">Összes magyar jegyzet</a>
+  </p>
 
 </section>
 
