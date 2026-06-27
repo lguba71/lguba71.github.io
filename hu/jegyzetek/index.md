@@ -65,7 +65,7 @@ permalink: /hu/jegyzetek/
 
 <section style="margin: 2rem 0;">
 
-  <h2>Megjelenési ritmus</h2>
+  <h2>Megjelenési gyakoriság</h2>
 
   <p>
     A cél havi egy rövid, gyakorlati magyar szakmai jegyzet közzététele.
@@ -75,15 +75,6 @@ permalink: /hu/jegyzetek/
   </p>
 
   <p>
-    A régebbi magyar jegyzetek a <a href="{{ '/hu/archivum/' | relative_url }}">magyar archívumban</a> találhatók.
+    A régebbi jegyzetek az <a href="{{ '/hu/archivum/' | relative_url }}">archívumban</a> találhatók.
   </p>
 
-</section>
-
-<section style="margin: 2rem 0;">
-
-  <p>
-    <a href="{{ '/hu/' | relative_url }}">← Vissza a magyar kezdőlapra</a>
-  </p>
-
-</section>
