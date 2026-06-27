@@ -97,6 +97,21 @@ permalink: /hu/
 
   <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
     <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
+      2026.06.27 · Retrofit módosítás
+    </p>
+    <h3 style="margin-top: 0;">
+      <a href="/hu/jegyzetek/retrofit-gepeszeti-modositas-miert-nehezebb-mint-uj-gepet-tervezni/">
+        Retrofit gépészeti módosítás: miért nehezebb, mint új gépet tervezni?
+      </a>
+    </h3>
+    <p>
+      Miért kockázatosabb egy meglévő gép, készülék vagy gépegység módosítása,
+      mint amilyennek elsőre látszik?
+    </p>
+  </div>
+
+  <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
+    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
       2026.05.30 · Dokumentáció rendezése
     </p>
     <h3 style="margin-top: 0;">
