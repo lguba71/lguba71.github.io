@@ -40,10 +40,6 @@ permalink: /hu/jegyzetek/
     <p>Jelenleg nincs megjelent magyar jegyzet.</p>
   {% endif %}
 
-  <p>
-    <a href="{{ '/hu/archivum/' | relative_url }}">Régebbi magyar jegyzetek az archívumban</a>
-  </p>
-
 </section>
 
 <section style="margin: 2rem 0;">
