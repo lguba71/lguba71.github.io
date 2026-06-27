@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Magyar archívum"
-description: "Régebbi magyar nyelvű szakmai jegyzetek archívuma gépésztervezésről, gyártástámogatásról, CAD-ről, készülékekről és célgép-projektekről."
+title: "Archívum"
+description: "Régebbi szakmai jegyzetek archívuma gépésztervezésről, gyártástámogatásról, CAD-ről, készülékekről és célgép-projektekről."
 lang: hu
 permalink: /hu/archivum/
 ---
@@ -11,7 +11,7 @@ permalink: /hu/archivum/
 <section style="margin-bottom: 2rem;">
 
   <p style="font-size: 1.2rem; line-height: 1.5; color: #12395B;">
-    Régebbi magyar szakmai jegyzetek gyártástámogatásról, gépésztervezésről,
+    Régebbi szakmai jegyzetek gyártástámogatásról, gépésztervezésről,
     CAD-ről, műszaki dokumentációról és célgép-projektekről.
   </p>
 
@@ -31,7 +31,7 @@ permalink: /hu/archivum/
     </ul>
   {% else %}
     <p>
-      Jelenleg nincs archív magyar jegyzet. Az első öt magyar jegyzet a
+      Jelenleg nincs archív jegyzet. Az első öt jegyzet a
       <a href="{{ '/hu/jegyzetek/' | relative_url }}">Jegyzetek</a> oldalon jelenik meg;
       a hatodik bejegyzéstől a régebbiek ide kerülnek.
     </p>
@@ -42,7 +42,7 @@ permalink: /hu/archivum/
 <section style="margin: 2rem 0;">
 
   <p>
-    <a href="{{ '/hu/jegyzetek/' | relative_url }}">← Vissza a magyar jegyzetekhez</a>
+    <a href="{{ '/hu/jegyzetek/' | relative_url }}">← Vissza a jegyzetekhez</a>
   </p>
 
 </section>
