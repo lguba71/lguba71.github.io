@@ -1,0 +1,63 @@
+<!-- Navigation buttons at the bottom of the post. -->
+
+{% assign nav_previous = page.previous %}
+{% assign nav_next = page.next %}
+{% assign previous = site.data.locales[include.lang].post.button.previous %}
+{% assign next = site.data.locales[include.lang].post.button.next %}
+
+{% if page.lang == 'hu' and page.url contains '/hu/jegyzetek/' %}
+  {% assign previous = 'Régebbi' %}
+  {% assign next = 'Újabb' %}
+  {% assign nav_previous = nil %}
+  {% assign nav_next = nil %}
+  {% assign hu_notes = site.pages | where: 'lang', 'hu' | where: 'layout', 'post' | where_exp: 'item', "item.url contains '/hu/jegyzetek/'" | sort: 'date' %}
+
+  {% for note in hu_notes %}
+    {% if note.url == page.url %}
+      {% assign current_index = forloop.index0 %}
+    {% endif %}
+  {% endfor %}
+
+  {% if current_index != nil %}
+    {% assign previous_index = current_index | minus: 1 %}
+    {% assign next_index = current_index | plus: 1 %}
+
+    {% if previous_index >= 0 %}
+      {% assign nav_previous = hu_notes[previous_index] %}
+    {% endif %}
+
+    {% if next_index < hu_notes.size %}
+      {% assign nav_next = hu_notes[next_index] %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  {% if nav_previous.url %}
+    <a
+      href="{{ site.baseurl }}{{ nav_previous.url }}"
+      class="btn btn-outline-primary"
+      aria-label="{{ previous }}"
+    >
+      <p>{{ nav_previous.title }}</p>
+    </a>
+  {% else %}
+    <div class="btn btn-outline-primary disabled" aria-label="{{ previous }}">
+      <p>-</p>
+    </div>
+  {% endif %}
+
+  {% if nav_next.url %}
+    <a
+      href="{{ site.baseurl }}{{ nav_next.url }}"
+      class="btn btn-outline-primary"
+      aria-label="{{ next }}"
+    >
+      <p>{{ nav_next.title }}</p>
+    </a>
+  {% else %}
+    <div class="btn btn-outline-primary disabled" aria-label="{{ next }}">
+      <p>-</p>
+    </div>
+  {% endif %}
+</nav>
