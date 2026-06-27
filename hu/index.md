@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Kezdőlap"
+title: " Külső gépész tervezői kapacitás gyártási és automatizálási projektekhez"
 description: "Projektalapú gépész tervezési támogatás gyártó cégeknek, célgépépítőknek és automatizálási projektekhez: CAD-modellek, gyártási rajzok, készülékek, célgép-részegységek, DFM és régi vagy hiányos műszaki dokumentációk rendezése."
 lang: hu
 permalink: /hu/
