@@ -26,7 +26,7 @@
     <ul class="nav">
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
-        <a href="{{ '/' | relative_url }}" class="nav-link">
+        <a href="{% if is_hu_page %}{{ '/hu/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           {% if is_hu_page %}
             <span>KEZDŐLAP</span>
@@ -37,8 +37,29 @@
       </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
-        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-          <a href="{{ tab.url | relative_url }}" class="nav-link">
+        {% assign tab_url = tab.url %}
+        {% if is_hu_page %}
+          {% case tab.url %}
+            {% when '/notes/' %}
+              {% assign tab_url = '/hu/jegyzetek/' %}
+            {% when '/archives/' %}
+              {% assign tab_url = '/hu/archivum/' %}
+          {% endcase %}
+        {% endif %}
+
+        {% assign is_active_tab = false %}
+        {% if tab_url == page.url %}
+          {% assign is_active_tab = true %}
+        {% endif %}
+        {% if is_hu_page and tab.url == '/notes/' and page.url contains '/hu/jegyzetek/' %}
+          {% assign is_active_tab = true %}
+        {% endif %}
+        {% if is_hu_page and tab.url == '/archives/' and page.url contains '/hu/archivum/' %}
+          {% assign is_active_tab = true %}
+        {% endif %}
+
+        <li class="nav-item{% if is_active_tab %}{{ " active" }}{% endif %}">
+          <a href="{{ tab_url | relative_url }}" class="nav-link">
             <i class="fa-fw {{ tab.icon }}"></i>
             {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
 
