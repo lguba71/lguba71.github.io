@@ -40,8 +40,12 @@
         {% assign tab_url = tab.url %}
         {% if is_hu_page %}
           {% case tab.url %}
+            {% when '/categories/' %}
+              {% assign tab_url = '/hu/kategoriak/' %}
             {% when '/notes/' %}
               {% assign tab_url = '/hu/jegyzetek/' %}
+            {% when '/tags/' %}
+              {% assign tab_url = '/hu/cimkek/' %}
             {% when '/archives/' %}
               {% assign tab_url = '/hu/archivum/' %}
           {% endcase %}
@@ -51,7 +55,13 @@
         {% if tab_url == page.url %}
           {% assign is_active_tab = true %}
         {% endif %}
+        {% if is_hu_page and tab.url == '/categories/' and page.url contains '/hu/kategoriak/' %}
+          {% assign is_active_tab = true %}
+        {% endif %}
         {% if is_hu_page and tab.url == '/notes/' and page.url contains '/hu/jegyzetek/' %}
+          {% assign is_active_tab = true %}
+        {% endif %}
+        {% if is_hu_page and tab.url == '/tags/' and page.url contains '/hu/cimkek/' %}
           {% assign is_active_tab = true %}
         {% endif %}
         {% if is_hu_page and tab.url == '/archives/' and page.url contains '/hu/archivum/' %}
