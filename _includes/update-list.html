@@ -8,39 +8,57 @@
 
 {% assign MAX_SIZE = 5 %}
 
-{% assign all_list = '' | split: '' %}
+{% if is_hu_page %}
+  {% assign hu_notes = site.pages | where: 'lang', 'hu' | where: 'layout', 'post' | where_exp: 'item', "item.url contains '/hu/jegyzetek/'" | sort: 'date' | reverse %}
 
-{% for post in site.posts %}
-  {% assign datetime = post.last_modified_at | default: post.date %}
+  {% if hu_notes.size > 0 %}
+    <section id="access-lastmod">
+      <h2 class="panel-heading">Újdonságok</h2>
+      <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+        {% for post in hu_notes limit: MAX_SIZE %}
+          <li class="text-truncate lh-lg">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+    <!-- #access-lastmod -->
+  {% endif %}
+{% else %}
+  {% assign all_list = '' | split: '' %}
 
-  {% capture elem %}
-    {{- datetime | date: "%Y%m%d%H%M%S" -}}::{{- forloop.index0 -}}
-  {% endcapture %}
+  {% for post in site.posts %}
+    {% assign datetime = post.last_modified_at | default: post.date %}
 
-  {% assign all_list = all_list | push: elem %}
-{% endfor %}
+    {% capture elem %}
+      {{- datetime | date: "%Y%m%d%H%M%S" -}}::{{- forloop.index0 -}}
+    {% endcapture %}
 
-{% assign all_list = all_list | sort | reverse %}
+    {% assign all_list = all_list | push: elem %}
+  {% endfor %}
 
-{% assign update_list = '' | split: '' %}
+  {% assign all_list = all_list | sort | reverse %}
 
-{% for entry in all_list limit: MAX_SIZE %}
-  {% assign update_list = update_list | push: entry %}
-{% endfor %}
+  {% assign update_list = '' | split: '' %}
 
-{% if update_list.size > 0 %}
-  <section id="access-lastmod">
-    <h2 class="panel-heading">{% if is_hu_page %}Legutóbb frissítve{% else %}{{- site.data.locales[include.lang].panel.lastmod -}}{% endif %}</h2>
-    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
-      {% for item in update_list %}
-        {% assign index = item | split: '::' | last | plus: 0 %}
-        {% assign post = site.posts[index] %}
-        {% assign url = post.url | relative_url %}
-        <li class="text-truncate lh-lg">
-          <a href="{{ url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-  <!-- #access-lastmod -->
+  {% for entry in all_list limit: MAX_SIZE %}
+    {% assign update_list = update_list | push: entry %}
+  {% endfor %}
+
+  {% if update_list.size > 0 %}
+    <section id="access-lastmod">
+      <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.lastmod -}}</h2>
+      <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+        {% for item in update_list %}
+          {% assign index = item | split: '::' | last | plus: 0 %}
+          {% assign post = site.posts[index] %}
+          {% assign url = post.url | relative_url %}
+          <li class="text-truncate lh-lg">
+            <a href="{{ url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+    <!-- #access-lastmod -->
+  {% endif %}
 {% endif %}
