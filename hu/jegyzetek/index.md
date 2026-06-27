@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Magyar szakmai jegyzetek"
-description: "Magyar nyelvű gyártástámogató szakmai jegyzetek gépésztervezésről, CAD-ről, gyártási dokumentációról, készülékekről és célgép-támogatásról."
+title: "Szakmai jegyzetek"
+description: "Gyártástámogató szakmai jegyzetek gépésztervezésről, CAD-ről, gyártási dokumentációról, készülékekről és célgép-támogatásról."
 lang: hu
 permalink: /hu/jegyzetek/
 ---
@@ -11,12 +11,12 @@ permalink: /hu/jegyzetek/
 <section style="margin-bottom: 2rem;">
 
   <p style="font-size: 1.2rem; line-height: 1.5; color: #12395B;">
-    Magyar nyelvű gyártástámogató szakmai jegyzetek gépésztervezésről,
+    Gyártástámogató szakmai jegyzetek gépésztervezésről,
     CAD-modellezésről, gyártási dokumentációról, készülékekről és célgép-projektekről.
   </p>
 
   <p>
-    Ezek a cikkek elsősorban magyar gyártócégeknek, célgépépítőknek,
+    Ezek a cikkek elsősorban gyártócégeknek, célgépépítőknek,
     automatizálási vállalkozásoknak és műszaki vezetőknek szólnak.
     A cél nem általános blogolás, hanem gyakorlati műszaki problémák,
     döntési helyzetek és szolgáltatási területek érthető bemutatása.
@@ -37,7 +37,7 @@ permalink: /hu/jegyzetek/
       {% endfor %}
     </ul>
   {% else %}
-    <p>Jelenleg nincs megjelent magyar jegyzet.</p>
+    <p>Jelenleg nincs megjelent jegyzet.</p>
   {% endif %}
 
 </section>
@@ -46,7 +46,7 @@ permalink: /hu/jegyzetek/
 
   <h2>Jövőbeli témák</h2>
 
-  <p>A következő magyar jegyzetek várhatóan ilyen témák köré épülnek:</p>
+  <p>A következő jegyzetek várhatóan ilyen témák köré épülnek:</p>
 
   <ul>
     <li>gyártható CAD-modellek és használható műszaki alapok,</li>
@@ -64,9 +64,9 @@ permalink: /hu/jegyzetek/
   <h2>Megjelenési gyakoriság</h2>
 
   <p>
-    A cél havi egy rövid, gyakorlati magyar szakmai jegyzet közzététele.
+    A cél havi egy rövid, gyakorlati szakmai jegyzet közzététele.
     A fókusz nem a nagy mennyiségű blogolás, hanem az üzletileg és műszakilag
-    hasznos témák bemutatása magyar gyártó cégek, célgépépítők és automatizálási
+    hasznos témák bemutatása gyártó cégek, célgépépítők és automatizálási
     projektek számára.
   </p>
 
@@ -74,3 +74,4 @@ permalink: /hu/jegyzetek/
     A régebbi jegyzetek az <a href="{{ '/hu/archivum/' | relative_url }}">archívumban</a> találhatók.
   </p>
 
+</section>
