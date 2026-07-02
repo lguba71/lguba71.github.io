@@ -1,0 +1,10 @@
+Image file for this draft:
+
+Repository path:
+/assets/img/posts/cad-model-not-finished-when-it-looks-complete.png
+
+Markdown reference:
+![A CAD model is not finished when it looks complete](/assets/img/posts/cad-model-not-finished-when-it-looks-complete.png)
+
+Note:
+The image has already been uploaded manually to the repository.
