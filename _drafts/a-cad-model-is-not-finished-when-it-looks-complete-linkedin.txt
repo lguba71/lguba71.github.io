@@ -1,0 +1,27 @@
+A CAD model can look complete on the screen and still be unfinished from an engineering point of view.
+
+The geometry may be there.
+
+The main shape may be correct.
+
+The part may even look clean and professional.
+
+But a useful CAD model has to do more than represent geometry.
+
+It has to support manufacturing, assembly, inspection, communication and future modification.
+
+A model is not truly finished if manufacturing still has to guess what is important.
+
+It is not finished if later changes will easily break the model.
+
+It is not finished if the drawing cannot be created clearly from it.
+
+A finished CAD model should be understandable for the next person in the process.
+
+That person may be another engineer, a CAM programmer, a supplier, an assembly technician or someone who has to modify the design later.
+
+I wrote a short engineering note about why a CAD model is not finished just because it looks complete:
+
+https://lguba71.github.io/posts/a-cad-model-is-not-finished-when-it-looks-complete/
+
+#MechanicalDesign #CAD #Manufacturing #DFM #EngineeringDesign #ProductionEngineering
