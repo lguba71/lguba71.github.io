@@ -1,0 +1,10 @@
+Image file for this draft:
+
+Repository path:
+/assets/img/posts/photography-engineering-observation.png
+
+Markdown reference:
+![What photography teaches about engineering observation](/assets/img/posts/photography-engineering-observation.png)
+
+Note:
+The image is still under consideration. Upload the final image manually to the repository before publication.
