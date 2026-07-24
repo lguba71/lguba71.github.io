@@ -189,7 +189,7 @@ Egy egyszerű készülék általában akkor térül meg gyorsan, ha legalább az
 - gyakran ismétlődik a művelet,
 - magas a hibaszázalék,
 - gyakori az utómunka,
-- sok az operátori igazgatás,
+- sok az operátori mozgás,
 - nehéz stabilan pozicionálni az alkatrészt,
 - több műszakban gyártanak,
 - új operátorokat kell betanítani,
