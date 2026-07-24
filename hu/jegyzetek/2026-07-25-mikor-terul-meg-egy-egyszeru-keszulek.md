@@ -28,6 +28,10 @@ Hanem az, hogy:
 
 **mikor térül meg egy egyszerű készülék?**
 
+![Készülék megtérülési vizsgálólap előnézete](/hu/eszkozok/kepek/jegyzetek/keszulek-megterulesi-vizsgalolap.svg)
+
+*A témához készült letölthető vizsgálólap a cikk végén, illetve a [Letöltések](/hu/letoltesek/) oldalon érhető el.*
+
 ## A készülék nem önmagáért készül
 
 Egy készülék célja nem az, hogy legyen még egy eszköz a műhelyben.
@@ -260,6 +264,14 @@ A jó készülék:
 Egy egyszerű készüléknél különösen fontos, hogy ne legyen túltervezve.
 
 Nem mindig a legbonyolultabb megoldás a legjobb. Sokszor egy jól elhelyezett ütköző, egy vezetőcsap, egy gyorsszorító, egy cserélhető betét vagy egy egyszerű ellenőrző sablon adja a legnagyobb gyakorlati értéket.
+
+## Letölthető vizsgálólap
+
+A témához készült egy négyoldalas, kézzel kitölthető vizsgálólap is:
+
+[Készülék megtérülési vizsgálólap letöltése](/hu/letoltesek/)
+
+A vizsgálólap segít összegyűjteni a kiinduló adatokat, a veszteségtípusokat, a várható megtakarításokat és a készülék becsült költségeit.
 
 ## Összefoglalás
 
