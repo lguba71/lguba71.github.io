@@ -25,7 +25,7 @@ Ez elsőre csak dokumentációs problémának tűnik. A gyakorlatban viszont gy�
 
 ## Miért probléma a hiányos dokumentáció?
 
-A hiányos műszaki dokumentáció általában akkor válik igazán fájdalmassá, amikor valamit gyorsan kellene tenni.
+A hiányos műszaki dokumentáció általában akkor válik igazán fájdalmassá, amikor valamit gyorsan kellene csinálni.
 
 Például:
 
