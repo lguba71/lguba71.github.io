@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Készülék megtérülési vizsgálólap előnézet</title>
+  <desc id="desc">Letölthető négyoldalas munkalap előnézete GUBA Engineering színvilággal.</desc>
+  <rect width="1200" height="675" fill="#F4F6F8"/>
+  <rect x="70" y="65" width="1060" height="545" rx="28" fill="#ffffff" stroke="#D8E4EA" stroke-width="3"/>
+  <rect x="70" y="65" width="1060" height="105" rx="28" fill="#23425F"/>
+  <rect x="70" y="142" width="1060" height="28" fill="#23425F"/>
+  <rect x="70" y="170" width="1060" height="10" fill="#2E8C8C"/>
+  <text x="110" y="124" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Készülék megtérülési vizsgálólap</text>
+  <text x="110" y="158" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#D8E4EA">Gyors döntéstámogató munkalap készülék, jig, fixture vagy befogó bevezetéséhez</text>
+
+  <g transform="translate(110 220)">
+    <rect x="0" y="0" width="470" height="140" rx="14" fill="#F4F6F8" stroke="#D8E4EA"/>
+    <rect x="0" y="0" width="470" height="42" rx="14" fill="#23425F"/>
+    <text x="22" y="28" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">1. Probléma és veszteségek</text>
+    <line x1="24" y1="70" x2="430" y2="70" stroke="#8FA3B8" stroke-width="2"/>
+    <line x1="24" y1="100" x2="430" y2="100" stroke="#8FA3B8" stroke-width="2"/>
+    <circle cx="32" cy="126" r="7" fill="none" stroke="#2E8C8C" stroke-width="2"/>
+    <text x="52" y="132" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1E2430">kézi pozícionálás · selejt · utómunka</text>
+  </g>
+
+  <g transform="translate(620 220)">
+    <rect x="0" y="0" width="470" height="140" rx="14" fill="#F4F6F8" stroke="#D8E4EA"/>
+    <rect x="0" y="0" width="470" height="42" rx="14" fill="#2E8C8C"/>
+    <text x="22" y="28" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">2. Megtakarítási összesítő</text>
+    <rect x="24" y="62" width="100" height="20" fill="#D8E4EA"/>
+    <rect x="140" y="62" width="80" height="20" fill="#D8E4EA"/>
+    <rect x="236" y="62" width="80" height="20" fill="#D8E4EA"/>
+    <rect x="332" y="62" width="100" height="20" fill="#D8E4EA"/>
+    <line x1="24" y1="98" x2="432" y2="98" stroke="#8FA3B8" stroke-width="2"/>
+    <line x1="24" y1="124" x2="432" y2="124" stroke="#8FA3B8" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(110 395)">
+    <rect x="0" y="0" width="470" height="140" rx="14" fill="#ffffff" stroke="#D8E4EA"/>
+    <rect x="0" y="0" width="470" height="42" rx="14" fill="#C97A3D"/>
+    <text x="22" y="28" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">3. Költség és megtérülés</text>
+    <text x="24" y="78" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1E2430">költség / havi megtakarítás = hónap</text>
+    <rect x="24" y="100" width="410" height="16" fill="#FFF7F0" stroke="#E7C3A8"/>
+  </g>
+
+  <g transform="translate(620 395)">
+    <rect x="0" y="0" width="470" height="140" rx="14" fill="#ffffff" stroke="#D8E4EA"/>
+    <rect x="0" y="0" width="470" height="42" rx="14" fill="#23425F"/>
+    <text x="22" y="28" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">4. Döntési segédlet</text>
+    <circle cx="35" cy="72" r="7" fill="none" stroke="#2E8C8C" stroke-width="2"/>
+    <text x="55" y="78" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1E2430">érdemes koncepciót készíteni</text>
+    <circle cx="35" cy="108" r="7" fill="none" stroke="#C97A3D" stroke-width="2"/>
+    <text x="55" y="114" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1E2430">további adatgyűjtés szükséges</text>
+  </g>
+
+  <text x="110" y="580" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#5B6B7A">GUBA-HU-FIX-01 · PDF munkalap · lguba71.github.io/hu/letoltesek/</text>
+</svg>
