@@ -93,6 +93,21 @@ permalink: /hu/
 
   <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
     <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
+      2026.07.25 · Készülék megtérülés
+    </p>
+    <h3 style="margin-top: 0;">
+      <a href="/hu/jegyzetek/mikor-terul-meg-egy-egyszeru-keszulek/">
+        Mikor térül meg egy egyszerű készülék?
+      </a>
+    </h3>
+    <p>
+      Egy egyszerű készülék, befogó, jig vagy fixture megtérülése nemcsak ciklusidőből áll:
+      számít a selejt, az utómunka, az ellenőrzési idő és az operátori hibalehetőség csökkentése is.
+    </p>
+  </div>
+
+  <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
+    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
       2026.06.27 · Retrofit módosítás
     </p>
     <h3 style="margin-top: 0;">
