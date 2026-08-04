@@ -1,7 +1,7 @@
 ---
 layout: page
-title: " Külső gépész tervezői kapacitás gyártási és automatizálási projektekhez"
-description: "Projektalapú gépész tervezési támogatás gyártó cégeknek, célgépépítőknek és automatizálási projektekhez: CAD-modellek, gyártási rajzok, készülékek, célgép-részegységek, DFM és régi vagy hiányos műszaki dokumentációk rendezése."
+title: "Külső gépésztervező gyártási, célgép és automatizálási projektekhez"
+description: "Külső gépésztervező és CAD tervezési támogatás gyártó cégeknek, célgépépítőknek és automatizálási projektekhez: gyártható CAD-modellek, gyártási rajzok, készülékek, jigek, célgép-részegységek, DFM és régi vagy hiányos műszaki dokumentációk rendezése."
 lang: hu
 permalink: /hu/
 ---
@@ -13,9 +13,10 @@ permalink: /hu/
   </p>
 
    <p>
-    Gyártható CAD-modellek, gyártási rajzok, készülékek, befogók, jigek,
+    Külső gépésztervezői és CAD tervezési támogatás gyártási, célgépépítési és automatizálási projektekhez:
+    gyártható CAD-modellek, gyártási rajzok, készülékek, befogók, jigek,
     célgép-részegységek, valamint régi papírrajzok, 2D dokumentációk és hiányos
-    műszaki anyagok rendezése gyártó cégeknek, célgépépítőknek és automatizálási projektekhez.
+    műszaki anyagok rendezése gyártó cégeknek és célgépépítőknek.
   </p>
 
   <p style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.75rem;">
