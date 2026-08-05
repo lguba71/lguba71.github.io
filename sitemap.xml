@@ -1,16 +1,21 @@
 ---
 layout: null
 permalink: /sitemap.xml
+sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% assign pages = site.pages | where_exp: "item", "item.sitemap != false" %}
   {% for page in pages %}
-    {% if page.url and page.url != '/sitemap.xml' and page.url != '/robots.txt' and page.url != '/404.html' %}
+    {% assign ext = page.extname | default: '' %}
+    {% assign url = page.url | default: '' %}
+    {% if page.url and (ext == '.html' or ext == '.md') %}
+      {% unless url == '/sitemap.xml' or url == '/robots.txt' or url == '/404.html' or url contains '/assets/' or url contains 'google' %}
   <url>
     <loc>{{ page.url | absolute_url | xml_escape }}</loc>
     {% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% endif %}
   </url>
+      {% endunless %}
     {% endif %}
   {% endfor %}
 
