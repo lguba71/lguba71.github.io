@@ -1,0 +1,28 @@
+Image file for this draft:
+
+Repository path:
+/assets/img/posts/why-tool-access-matters-in-mechanical-design.png
+
+Markdown reference:
+![Why tool access matters in mechanical design](/assets/img/posts/why-tool-access-matters-in-mechanical-design.png)
+
+Suggested visual concept:
+
+LEFT:
+Looks good in CAD
+- screw close to wall
+- pocket too narrow
+- limited tool clearance
+- inspection access blocked
+
+RIGHT:
+Designed with tool access
+- enough assembly tool clearance
+- machining tool path considered
+- inspection access clear
+- assembly direction considered
+
+Main image message:
+WHY TOOL ACCESS MATTERS IN MECHANICAL DESIGN
+
+A feature is not practical if the tool cannot reach it.
