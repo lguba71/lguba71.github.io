@@ -1,0 +1,25 @@
+Tolerances are often treated as drawing details.
+
+Something to define near the end of the design process.
+
+But tolerance choices are not only documentation work.
+
+They are design decisions.
+
+A tight tolerance may look safe on a drawing.
+
+But it can increase manufacturing cost, inspection time and supplier effort.
+
+A loose tolerance may look easier.
+
+But it can create assembly, alignment, movement or reliability problems later.
+
+The important question is not whether a tolerance is tight or loose.
+
+The important question is whether it matches the function.
+
+I wrote a short engineering note about why tolerance choices are design decisions:
+
+https://lguba71.github.io/posts/tolerance-choices-are-design-decisions/
+
+#MechanicalDesign #Tolerances #Manufacturing #DFM #EngineeringDesign #ProductionEngineering
