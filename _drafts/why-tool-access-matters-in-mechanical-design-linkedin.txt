@@ -1,0 +1,25 @@
+A CAD model can look correct and still be difficult to manufacture or assemble.
+
+One common reason is simple:
+
+the tool cannot reach the feature properly.
+
+A screw may be correctly selected, but placed where the assembly tool cannot be used comfortably.
+
+A pocket may look clean in the model, but require an unstable machining setup.
+
+A feature may be dimensionally correct, but difficult to inspect.
+
+Tool access is not only a machining issue.
+
+It also affects assembly, inspection, adjustment, cleaning and future service.
+
+Good mechanical design is not only about placing features correctly.
+
+It is also about making them reachable.
+
+I wrote a short engineering note about why tool access matters in mechanical design:
+
+https://lguba71.github.io/posts/why-tool-access-matters-in-mechanical-design/
+
+#MechanicalDesign #Manufacturing #DFM #MachineDesign #EngineeringDesign #ProductionEngineering
