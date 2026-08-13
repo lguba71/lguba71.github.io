@@ -1,0 +1,10 @@
+Image file for this draft:
+
+Repository path:
+/assets/img/posts/tolerance-choices-are-design-decisions.png
+
+Markdown reference:
+![Tolerance choices are design decisions](/assets/img/posts/tolerance-choices-are-design-decisions.png)
+
+Note:
+The image has already been uploaded manually to the repository.
