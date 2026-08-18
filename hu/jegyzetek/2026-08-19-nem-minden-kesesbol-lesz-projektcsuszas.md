@@ -34,50 +34,6 @@ Hanem az, hogy:
 
 Ez a kettő nem ugyanaz.
 
-## Késés és projektcsúszás nem ugyanaz
-
-Egy projektben sok feladat fut egymás mellett vagy egymás után. Vannak olyan feladatok, amelyek közvetlenül meghatározzák a végdátumot, és vannak olyanok, amelyek rendelkeznek valamennyi időtartalékkal.
-
-Ha egy nem kritikus feladat késik, de még belefér az időtartalékába, akkor a projekt vége nem feltétlenül csúszik.
-
-Tegyük fel, hogy egy célgép-projektben a vásárolt alkatrészek beszerzése eredetileg a 18. napon zárulna. A következő mechanikai szerelési lépés azonban csak a 24. napon tudna indulni, mert addigra készül el a gyártott mechanikai alkatrészek másik ága.
-
-Ebben az esetben a beszerzés időtartaléka:
-
-```text
-TF_G = 24 - 18 = 6 nap
-```
-
-Ha a beszállító négy nap késést jelez, akkor a beszerzés új befejezése:
-
-```text
-18 + 4 = 22 nap
-```
-
-A szerelés tervezett indulása továbbra is:
-
-```text
-24 nap
-```
-
-Mivel:
-
-```text
-22 < 24
-```
-
-a projekt végdátuma még nem változik.
-
-A késés valós, de a projekt még nem csúszott. Csak az időtartalék csökkent:
-
-```text
-6 - 4 = 2 nap
-```
-
-Ezért veszélyes minden késést automatikusan projektcsúszásként kezelni.
-
-A projektvezetőnek nem egyszerűen a „késő feladatokat” kell figyelnie, hanem a kritikus és közel kritikus feladatokat.
-
 ## A kritikus út szerepe
 
 A kritikus út az a feladatsor, amely meghatározza a projekt minimális átfutási idejét.
@@ -146,6 +102,50 @@ A közel kritikus feladatok különösen veszélyesek. Ezek még nem feltétlen�
 Ezért a projektcsúszás kezelésének első lépése nem a gyorsítás.
 
 Hanem a helyzet tisztázása.
+
+## Késés és projektcsúszás nem ugyanaz
+
+Egy projektben sok feladat fut egymás mellett vagy egymás után. Vannak olyan feladatok, amelyek közvetlenül meghatározzák a végdátumot, és vannak olyanok, amelyek rendelkeznek valamennyi időtartalékkal.
+
+Ha egy nem kritikus feladat késik, de még belefér az időtartalékába, akkor a projekt vége nem feltétlenül csúszik.
+
+Tegyük fel, hogy a fenti példában a vásárolt alkatrészek beszerzése eredetileg a 18. napon zárulna. A következő mechanikai szerelési lépés azonban csak a 24. napon tudna indulni, mert addigra készül el a gyártott mechanikai alkatrészek másik ága.
+
+Ebben az esetben a beszerzés időtartaléka:
+
+```text
+TF_G = 24 - 18 = 6 nap
+```
+
+Ha a beszállító négy nap késést jelez, akkor a beszerzés új befejezése:
+
+```text
+18 + 4 = 22 nap
+```
+
+A szerelés tervezett indulása továbbra is:
+
+```text
+24 nap
+```
+
+Mivel:
+
+```text
+22 < 24
+```
+
+a projekt végdátuma még nem változik.
+
+A késés valós, de a projekt még nem csúszott. Csak az időtartalék csökkent:
+
+```text
+6 - 4 = 2 nap
+```
+
+Ezért veszélyes minden késést automatikusan projektcsúszásként kezelni.
+
+A projektvezetőnek nem egyszerűen a „késő feladatokat” kell figyelnie, hanem a kritikus és közel kritikus feladatokat.
 
 ## Amikor a késés már valóban módosítja a projektet
 
@@ -579,7 +579,7 @@ Ha egy kritikus feladatot lerövidítünk, előfordulhat, hogy egy másik ág v�
 Például ha a gyártási feladatot jelentősen gyorsítjuk:
 
 ```text
-Gyártás (F): 10 nap → 4 nap
+F: 10 nap → 4 nap
 ```
 
 akkor a gyártás befejezése:
