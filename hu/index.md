@@ -94,6 +94,21 @@ permalink: /hu/
 
   <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
     <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
+      2026.08.19 · Projektvezetés
+    </p>
+    <h3 style="margin-top: 0;">
+      <a href="/hu/jegyzetek/nem-minden-kesesbol-lesz-projektcsuszas/">
+        Nem minden késésből lesz projektcsúszás
+      </a>
+    </h3>
+    <p>
+      Kritikus út, időtartalék, forecast és kontrollált újratervezés célgép-, készülék-
+      és automatizálási projektekben.
+    </p>
+  </div>
+
+  <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
+    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
       2026.07.25 · Készülék megtérülés
     </p>
     <h3 style="margin-top: 0;">
@@ -149,21 +164,6 @@ permalink: /hu/
     <p>
       Gazdasági és kapacitástervezési szempontok: mikor racionálisabb külső mérnöki kapacitást bevonni,
       mint új teljes állású mérnököt keresni?
-    </p>
-  </div>
-
-  <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
-    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
-      2026.03.28 · Szolgáltatásmagyarázat
-    </p>
-    <h3 style="margin-top: 0;">
-      <a href="/hu/jegyzetek/mikor-erdemes-kulso-gepesztervezot-bevonni-egy-celgep-projektbe/">
-        Mikor érdemes külső gépésztervezőt bevonni egy célgép-projektbe?
-      </a>
-    </h3>
-    <p>
-      Mikor segíthet egy jól lehatárolt külső gépésztervezői kapacitás gyártási,
-      célgépépítési vagy automatizálási projektekben?
     </p>
   </div>
 
