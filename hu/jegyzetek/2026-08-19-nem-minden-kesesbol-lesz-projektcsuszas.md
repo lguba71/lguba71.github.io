@@ -82,13 +82,29 @@ A projektvezetőnek nem egyszerűen a „késő feladatokat” kell figyelnie, h
 
 A kritikus út az a feladatsor, amely meghatározza a projekt minimális átfutási idejét.
 
-Egy egyszerű példában egy félautomata szerelőállomás projekt fő útvonala lehet:
+A példában egy félautomata szerelőállomás fő tevékenységei így néznek ki:
+
+| ID | Tevékenység | Időtartam | Előfeltétel |
+|---|---|---:|---|
+| A | Követelmények lezárása | 2 nap | - |
+| B | Mechanikai koncepció | 4 nap | A |
+| C | Villamos koncepció | 3 nap | A |
+| D | Mechanikai részlettervezés | 8 nap | B |
+| E | Villamos részlettervezés | 5 nap | C |
+| F | Gyártás | 10 nap | D |
+| G | Vásárolt alkatrészek beszerzése | 12 nap | B |
+| H | Mechanikai szerelés | 4 nap | F, G |
+| I | Villamos szerelés | 3 nap | E, H |
+| J | PLC-programozás és integráció | 5 nap | I |
+| K | FAT | 2 nap | J |
+
+A kritikus út ebben a példában:
 
 ```text
 A → B → D → F → H → I → J → K
 ```
 
-ahol a tevékenységek időtartama:
+A kritikus úton lévő tevékenységek időtartama:
 
 ```text
 Követelmények lezárása (A) = 2 nap
