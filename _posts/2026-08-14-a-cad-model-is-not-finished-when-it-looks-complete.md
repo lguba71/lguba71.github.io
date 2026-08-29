@@ -2,6 +2,9 @@
 title: A CAD Model Is Not Finished When It Looks Complete
 categories: [Engineering, Design]
 tags: [cad, mechanical-design, manufacturability]
+image:
+  path: /assets/img/posts/cad-model-not-finished-when-it-looks-complete.png
+  alt: A CAD model is not finished when it looks complete
 ---
 
 A CAD model can look complete on the screen and still be unfinished from an engineering point of view.
