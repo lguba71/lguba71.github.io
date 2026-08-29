@@ -117,19 +117,6 @@ main a:not(.btn):not(.post-tag):hover {
   box-shadow: 0 4px 14px rgba(35, 66, 95, 0.06) !important;
 }
 
-/* ---- Post featured images ---- */
-/* Keep infographic-style post images fully visible instead of cropping the title area. */
-
-#post .preview-img,
-#post .preview-img img,
-#post img.preview-img {
-  width: 100% !important;
-  height: auto !important;
-  max-height: none !important;
-  object-fit: contain !important;
-  object-position: center center !important;
-}
-
 /* ---- Tags ---- */
 
 .post-tag,
