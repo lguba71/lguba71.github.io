@@ -2,6 +2,9 @@
 title: Tolerance Choices Are Design Decisions
 categories: [Engineering, Design]
 tags: [mechanical-design, tolerances, manufacturing]
+image:
+  path: /assets/img/posts/tolerance-choices-are-design-decisions.png
+  alt: Tolerance choices are design decisions
 ---
 
 Tolerances are often treated as drawing details.
