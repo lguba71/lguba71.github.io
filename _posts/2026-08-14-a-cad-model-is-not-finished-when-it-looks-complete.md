@@ -19,8 +19,6 @@ But a useful CAD model has to do more than represent geometry.
 
 It has to support manufacturing, assembly, inspection, communication, and future modification.
 
-![A CAD model is not finished when it looks complete](/assets/img/posts/cad-model-not-finished-when-it-looks-complete.png)
-
 A model is not truly finished if important features are hard to understand.
 
 It is not finished if the design intent is unclear.
