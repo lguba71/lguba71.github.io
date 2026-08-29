@@ -45,8 +45,6 @@ The important question is not whether a tolerance is tight or loose.
 
 The important question is whether it matches the function.
 
-![Tolerance choices are design decisions](/assets/img/posts/tolerance-choices-are-design-decisions.png)
-
 Before defining a tolerance, I like to ask:
 
 - what function does this dimension control?
