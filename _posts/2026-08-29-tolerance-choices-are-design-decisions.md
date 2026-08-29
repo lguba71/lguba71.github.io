@@ -2,9 +2,6 @@
 title: Tolerance Choices Are Design Decisions
 categories: [Engineering, Design]
 tags: [mechanical-design, tolerances, manufacturing]
-image:
-  path: /assets/img/posts/tolerance-choices-are-design-decisions.png
-  alt: Tolerance choices are design decisions
 ---
 
 Tolerances are often treated as drawing details.
@@ -44,6 +41,8 @@ Noise, vibration, wear, or alignment problems may appear later.
 The important question is not whether a tolerance is tight or loose.
 
 The important question is whether it matches the function.
+
+![Tolerance choices are design decisions](/assets/img/posts/tolerance-choices-are-design-decisions.png)
 
 Before defining a tolerance, I like to ask:
 
