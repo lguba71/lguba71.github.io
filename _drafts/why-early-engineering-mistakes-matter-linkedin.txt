@@ -1,0 +1,33 @@
+What is one early engineering mistake that taught you something useful?
+
+Nobody starts by running fast.
+
+First we learn to stand, walk, fall, stand up, and try again.
+
+Engineering experience is similar.
+
+Earlier in my career, I learned that moving fast is not always the same as making good progress.
+
+Sometimes the mistake is not a wrong calculation.
+
+Sometimes it is accepting the first understanding of the problem too easily.
+
+What did I assume?
+
+What did I not ask?
+
+What constraint did I notice too late?
+
+Who would be affected by the decision later?
+
+Early mistakes are uncomfortable.
+
+But if they improve judgement, they are not wasted.
+
+I wrote a short reflection about why early engineering mistakes matter:
+
+https://lguba71.github.io/posts/why-early-engineering-mistakes-matter/
+
+What was one early mistake that helped you become better at your work?
+
+#Engineering #MechanicalDesign #ProblemSolving #LessonsLearned
