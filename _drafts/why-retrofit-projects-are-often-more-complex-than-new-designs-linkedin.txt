@@ -1,0 +1,23 @@
+Retrofit projects often look simpler than new machine designs.
+
+After all, part of the machine already exists.
+
+But that is exactly what makes them difficult.
+
+You inherit existing geometry, interfaces, components, operator habits and maintenance constraints.
+
+Sometimes you also inherit incomplete or outdated documentation.
+
+A new machine can often be designed around the process.
+
+A retrofit has to work around both the process and the machine that is already there.
+
+The technical solution itself may be simple.
+
+The difficult part is making it fit reliably into an existing system.
+
+I wrote a short engineering note about why retrofit projects are often more complex than new designs:
+
+https://lguba71.github.io/posts/why-retrofit-projects-are-often-more-complex-than-new-designs/
+
+#MechanicalDesign #Retrofit #Automation #MachineDesign #Engineering
