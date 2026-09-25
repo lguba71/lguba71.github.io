@@ -12,22 +12,21 @@ These notes started as blog-style posts, but their purpose is to support the eng
 
 ## Published notes
 
+- [Why Early Engineering Mistakes Matter](/posts/why-early-engineering-mistakes-matter/)
 - [Tolerance Choices Are Design Decisions](/posts/tolerance-choices-are-design-decisions/)
 - [A CAD Model Is Not Finished When It Looks Complete](/posts/a-cad-model-is-not-finished-when-it-looks-complete/)
 - [Why Clear Design Intent Matters in Mechanical Design](/posts/why-clear-design-intent-matters-in-mechanical-design/)
 - [What Photography Teaches About Engineering Observation](/posts/what-photography-teaches-about-engineering-observation/)
-- [Why Small Design Decisions Matter in Manufacturing](/posts/why-small-design-decisions-matter-in-manufacturing/)
 
 ## Planned topics
 
 Future notes may cover:
 
-- fixture and jig design principles,
-- DFM decisions,
-- CAD model cleanup,
 - special-purpose machine concepts,
 - automation retrofit challenges,
-- tolerance thinking,
+- practical automation improvements,
+- fixture and jig design principles,
+- DFM decisions,
 - practical design simplification.
 
 ## Publishing rhythm
