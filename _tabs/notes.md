@@ -12,11 +12,11 @@ These notes started as blog-style posts, but their purpose is to support the eng
 
 ## Published notes
 
+- [Why Retrofit Projects Are Often More Complex Than New Designs](/posts/why-retrofit-projects-are-often-more-complex-than-new-designs/)
 - [Why Early Engineering Mistakes Matter](/posts/why-early-engineering-mistakes-matter/)
 - [Tolerance Choices Are Design Decisions](/posts/tolerance-choices-are-design-decisions/)
 - [A CAD Model Is Not Finished When It Looks Complete](/posts/a-cad-model-is-not-finished-when-it-looks-complete/)
 - [Why Clear Design Intent Matters in Mechanical Design](/posts/why-clear-design-intent-matters-in-mechanical-design/)
-- [What Photography Teaches About Engineering Observation](/posts/what-photography-teaches-about-engineering-observation/)
 
 ## Planned topics
 
