@@ -94,6 +94,21 @@ permalink: /hu/
 
   <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
     <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
+      2026.11.26 · Műszaki projektvezetés
+    </p>
+    <h3 style="margin-top: 0;">
+      <a href="/hu/jegyzetek/muszaki-bizonytalansag-mikor-szabad-tovabblepni-egy-projektben/">
+        Műszaki bizonytalanság: mikor szabad továbblépni egy projektben?
+      </a>
+    </h3>
+    <p>
+      Mely kérdéseket kell bizonyítékkal tisztázni, mielőtt kiadjuk a rajzot,
+      megrendeljük a kritikus komponenst vagy továbbengedjük a konstrukciót?
+    </p>
+  </div>
+
+  <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
+    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
       2026.08.19 · Projektvezetés
     </p>
     <h3 style="margin-top: 0;">
@@ -149,21 +164,6 @@ permalink: /hu/
     <p>
       Régi rajzok, szkennelt PDF-ek, hiányos 2D dokumentációk és meglévő alkatrészek
       feldolgozása használható CAD-modellé, gyártási rajzzá és műszaki alappá.
-    </p>
-  </div>
-
-  <div style="border: 1px solid #E3E8ED; border-radius: 14px; padding: 1.25rem; background: #ffffff; margin-top: 1rem;">
-    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: #5B6B7A; margin-bottom: 0.35rem;">
-      2026.04.25 · Kapacitástervezés
-    </p>
-    <h3 style="margin-top: 0;">
-      <a href="/hu/jegyzetek/kulso-mernoki-kapacitas-mikor-jobb-mint-uj-alkalmazottat-keresni/">
-        Külső mérnöki kapacitás: mikor jobb, mint új alkalmazottat keresni?
-      </a>
-    </h3>
-    <p>
-      Gazdasági és kapacitástervezési szempontok: mikor racionálisabb külső mérnöki kapacitást bevonni,
-      mint új teljes állású mérnököt keresni?
     </p>
   </div>
 
