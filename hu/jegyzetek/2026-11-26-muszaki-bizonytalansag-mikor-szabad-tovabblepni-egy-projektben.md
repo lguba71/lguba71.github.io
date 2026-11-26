@@ -13,6 +13,8 @@ toc: true
 
 *Hogyan kezeljük a nyitott műszaki kérdéseket, mielőtt egy hibás feltételezésből költséges konstrukciómódosítás lesz?*
 
+![A GUBA-HU-PM-02 műszaki bizonytalanság vizsgálólap előnézete](/hu/eszkozok/kepek/jegyzetek/GUBA-HU-PM-02-muszaki-bizonytalansag-vizsgalolap-cikk-kep.png)
+
 Egy célgép- vagy automatizálási projektben ritkán ismerünk minden műszaki részletet már a tervezés kezdetén. Nem biztos, hogy pontosan ismerjük a dinamikus terheléseket. Nem tudjuk, hogy egy megfogó megfelelően működik-e olajos alkatrészekkel. Kérdéses lehet egy beszállító gyártási képessége, egy szerkezeti elem merevsége vagy több részegység együttes működése. Ezek önmagukban nem feltétlenül jelentenek problémát. A mérnöki tervezés természetes részei. A nehézség akkor kezdődik, amikor a projekt halad előre, a nyitott kérdések viszont megválaszolatlanok maradnak.
 
 Elindul a részlettervezés. Kiadjuk a gyártási rajzokat. Megrendeljük a hosszú szállítási idejű alkatrészeket. Megkezdődik a szerelés. Egy korábban még viszonylag egyszerűen kezelhető bizonytalanság ekkor már jelentős költséget és késést okozhat. A kérdés tehát nem az, hogy minden bizonytalanságot meg tudunk-e szüntetni. Hanem az, hogy
@@ -209,6 +211,14 @@ Egy műszaki projektben soha nem lesz minden információ teljesen biztos. Ez ö
 **a kritikus bizonytalanságokat még azelőtt csökkentsük elfogadható szintre, mielőtt az adott döntés visszafordítása túl költségessé válna.**
 
 Egy időben elvégzett számítás, egy jól megválasztott részpróba vagy egy megfelelően előkészített műszaki egyeztetés sokszor többet ér, mint egy későbbi, kapkodva végrehajtott konstrukciómódosítás.
+
+## Letölthető műszaki segédlet
+
+A cikkhez elkészült a **GUBA-HU-PM-02 – Műszaki bizonytalanság vizsgálólap**, egy négyoldalas, A4-es, nyomtatható munkalap. Segít rögzíteni a nyitott műszaki kérdéseket, a vizsgálat módját, az elfogadási feltételeket, a felelőst és az elköteleződési pont előtti döntést.
+
+**[Műszaki bizonytalanság vizsgálólap – PDF letöltése](/hu/eszkozok/pdf/GUBA-HU-PM-02-muszaki-bizonytalansag-vizsgalolap.pdf)**
+
+[A teljes, négyoldalas előnézet megtekintése](/hu/eszkozok/kepek/jegyzetek/GUBA-HU-PM-02-muszaki-bizonytalansag-vizsgalolap-elonezet.png)
 
 ---
 
