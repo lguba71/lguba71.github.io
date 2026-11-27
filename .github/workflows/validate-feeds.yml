@@ -1,0 +1,85 @@
+name: Validate Atom feeds
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+      - name: Build site without deployment
+        run: bundle exec jekyll b -d _site
+        env:
+          JEKYLL_ENV: production
+      - name: Validate bilingual Atom feeds
+        run: |
+          python3 - <<'PY'
+          from datetime import datetime, timezone
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urlparse
+          import xml.etree.ElementTree as ET
+
+          ns = {"a": "http://www.w3.org/2005/Atom"}
+          xml_lang = "{http://www.w3.org/XML/1998/namespace}lang"
+          origin = "https://lguba71.github.io"
+          all_ids = set()
+
+          class Links(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.feeds, self.rss = [], []
+              def handle_starttag(self, tag, attrs):
+                  a = dict(attrs)
+                  if tag == "link" and a.get("rel") == "alternate" and a.get("type") == "application/atom+xml":
+                      self.feeds.append(a.get("href"))
+                  if tag == "a" and "RSS / Atom" in a.get("aria-label", ""):
+                      self.rss.append(a.get("href"))
+
+          for lang, path, home in [("en", "feed.xml", "index.html"), ("hu", "hu/feed.xml", "hu/index.html")]:
+              root = ET.parse(Path("_site") / path).getroot()
+              assert root.tag == "{http://www.w3.org/2005/Atom}feed"
+              assert root.attrib.get(xml_lang) == lang
+              assert root.find("a:link[@rel='self']", ns).attrib["href"] == origin + "/" + path
+              entries = root.findall("a:entry", ns)
+              assert 0 < len(entries) <= 20, (lang, len(entries))
+              dates = []
+              for item in entries:
+                  uid = item.findtext("a:id", namespaces=ns)
+                  href = item.find("a:link[@rel='alternate']", ns).attrib["href"]
+                  assert uid == href and uid not in all_ids
+                  all_ids.add(uid)
+                  parsed = urlparse(uid)
+                  assert parsed.scheme == "https" and parsed.netloc == "lguba71.github.io"
+                  if lang == "hu":
+                      assert parsed.path.startswith("/hu/jegyzetek/")
+                  else:
+                      assert not parsed.path.startswith("/hu/")
+                  target = Path("_site") / parsed.path.lstrip("/")
+                  assert target.is_file() or (target / "index.html").is_file(), uid
+                  published = datetime.fromisoformat(item.findtext("a:published", namespaces=ns))
+                  updated = datetime.fromisoformat(item.findtext("a:updated", namespaces=ns))
+                  assert published.tzinfo and updated.tzinfo
+                  assert published <= datetime.now(timezone.utc), uid
+                  assert item.findtext("a:title", namespaces=ns)
+                  assert item.findtext("a:summary", namespaces=ns)
+                  dates.append(published)
+              assert dates == sorted(dates, reverse=True), lang
+              feed_updated = datetime.fromisoformat(root.findtext("a:updated", namespaces=ns))
+              assert feed_updated.tzinfo
+              parser = Links()
+              parser.feed((Path("_site") / home).read_text(encoding="utf-8"))
+              assert origin + "/" + path in parser.feeds, (lang, parser.feeds)
+              assert "/" + path in parser.rss, (lang, parser.rss)
+              print(f"{lang}: {len(entries)} valid entries; autodiscovery and RSS icon OK")
+          PY
