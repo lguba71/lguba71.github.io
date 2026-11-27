@@ -48,6 +48,7 @@
     <published>{{ item.date | date_to_xmlschema }}</published>
     <updated>{{ item.last_modified_at | default: item.date | date_to_xmlschema }}</updated>
     <summary type="text">{{ item_summary | xml_escape }}</summary>
+    <content type="html" xml:base="{{ item_url | xml_escape }}">{{ item.content | markdownify | xml_escape }}</content>
     {% for category in item.categories %}
     <category term="{{ category | xml_escape }}" />
     {% endfor %}
