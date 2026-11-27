@@ -1,0 +1,10 @@
+---
+layout: none
+permalink: /feed.xml
+sitemap: false
+feed_language: en
+feed_home: /
+feed_title: "Lajos Guba – Engineering Notes"
+feed_description: "Mechanical design, manufacturable CAD, fixtures, jigs and manufacturing engineering notes."
+---
+{%- include bilingual-atom-feed.xml -%}
