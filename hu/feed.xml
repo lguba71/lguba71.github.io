@@ -1,0 +1,11 @@
+---
+layout: none
+permalink: /hu/feed.xml
+sitemap: false
+lang: hu
+feed_language: hu
+feed_home: /hu/
+feed_title: "Lajos Guba – Szakmai jegyzetek"
+feed_description: "Gyártásközeli gépésztervezés, CAD, készüléktervezés és műszaki dokumentáció."
+---
+{%- include bilingual-atom-feed.xml -%}

@@ -1,0 +1,6 @@
+{%- assign feed_prefix = page.url | slice: 0, 4 -%}
+{%- if page.lang == 'hu' or feed_prefix == '/hu/' -%}
+<link rel="alternate" type="application/atom+xml" title="Szakmai jegyzetek (HU)" href="{{ '/hu/feed.xml' | absolute_url | escape }}">
+{%- else -%}
+<link rel="alternate" type="application/atom+xml" title="Engineering Notes (EN)" href="{{ '/feed.xml' | absolute_url | escape }}">
+{%- endif -%}

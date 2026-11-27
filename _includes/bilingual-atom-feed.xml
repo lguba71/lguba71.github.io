@@ -1,0 +1,56 @@
+{%- assign entries = '' | split: '' -%}
+{%- if page.feed_language == 'hu' -%}
+  {%- assign candidates = site.pages | where: 'lang', 'hu' | where: 'layout', 'post' | where_exp: 'item', "item.url contains '/hu/jegyzetek/'" -%}
+{%- else -%}
+  {%- assign candidates = site.posts | concat: site.notes -%}
+{%- endif -%}
+{%- assign now_epoch = site.time | date: '%s' | plus: 0 -%}
+{%- for item in candidates -%}
+  {%- assign item_lang = item.lang | default: site.lang -%}
+  {%- if item.date and item.url and item.title and item.published != false and item_lang == page.feed_language -%}
+    {%- assign item_epoch = item.date | date: '%s' | plus: 0 -%}
+    {%- if item_epoch <= now_epoch -%}
+      {%- assign entries = entries | push: item -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign entries = entries | sort: 'date' | reverse -%}
+{%- assign feed_updated = site.time -%}
+{%- assign newest_epoch = 0 -%}
+{%- for item in entries limit:20 -%}
+  {%- assign item_updated = item.last_modified_at | default: item.date -%}
+  {%- assign updated_epoch = item_updated | date: '%s' | plus: 0 -%}
+  {%- if updated_epoch > newest_epoch -%}
+    {%- assign newest_epoch = updated_epoch -%}
+    {%- assign feed_updated = item_updated -%}
+  {%- endif -%}
+{%- endfor -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ page.feed_language | xml_escape }}">
+  <id>{{ page.feed_home | absolute_url | xml_escape }}</id>
+  <title>{{ page.feed_title | xml_escape }}</title>
+  <subtitle>{{ page.feed_description | xml_escape }}</subtitle>
+  <updated>{{ feed_updated | date_to_xmlschema }}</updated>
+  <author>
+    <name>{{ site.social.name | default: site.title | xml_escape }}</name>
+    <uri>{{ page.feed_home | absolute_url | xml_escape }}</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="{{ page.url | absolute_url | xml_escape }}" />
+  <link rel="alternate" type="text/html" hreflang="{{ page.feed_language | xml_escape }}" href="{{ page.feed_home | absolute_url | xml_escape }}" />
+  <generator uri="https://jekyllrb.com/">Jekyll</generator>
+  {% for item in entries limit:20 %}
+  {% assign item_url = item.url | absolute_url %}
+  {% assign item_summary = item.description | default: item.excerpt | default: item.content | markdownify | strip_html | normalize_whitespace | truncate: 400 %}
+  <entry>
+    <id>{{ item_url | xml_escape }}</id>
+    <title>{{ item.title | xml_escape }}</title>
+    <link rel="alternate" type="text/html" href="{{ item_url | xml_escape }}" />
+    <published>{{ item.date | date_to_xmlschema }}</published>
+    <updated>{{ item.last_modified_at | default: item.date | date_to_xmlschema }}</updated>
+    <summary type="text">{{ item_summary | xml_escape }}</summary>
+    {% for category in item.categories %}
+    <category term="{{ category | xml_escape }}" />
+    {% endfor %}
+  </entry>
+  {% endfor %}
+</feed>
