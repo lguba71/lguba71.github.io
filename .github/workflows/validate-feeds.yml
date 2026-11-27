@@ -73,6 +73,13 @@ jobs:
                   assert published <= datetime.now(timezone.utc), uid
                   assert item.findtext("a:title", namespaces=ns)
                   assert item.findtext("a:summary", namespaces=ns)
+                  full = item.find("a:content", ns)
+                  assert full is not None and full.attrib.get("type") == "html", uid
+                  assert full.attrib.get("{http://www.w3.org/XML/1998/namespace}base") == uid
+                  assert len(full) == 0, (uid, "HTML must be XML-escaped text")
+                  html = (full.text or "").strip()
+                  assert html and "<" in html and ">" in html, (uid, "Missing rendered HTML")
+                  assert html != item.findtext("a:summary", namespaces=ns), uid
                   dates.append(published)
               assert dates == sorted(dates, reverse=True), lang
               feed_updated = datetime.fromisoformat(root.findtext("a:updated", namespaces=ns))
