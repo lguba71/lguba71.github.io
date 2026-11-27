@@ -173,7 +173,11 @@
             javascript:void(location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))
           {%- endcapture -%}
         {% when 'rss' %}
-          {% assign url = '/feed.xml' | relative_url %}
+          {% if is_hu_page %}
+            {% assign url = '/hu/feed.xml' | relative_url %}
+          {% else %}
+            {% assign url = '/feed.xml' | relative_url %}
+          {% endif %}
         {% else %}
           {% assign url = entry.url %}
       {% endcase %}
@@ -181,7 +185,7 @@
       {% if url %}
         <a
           href="{{ url }}"
-          aria-label="{{ entry.type }}"
+          aria-label="{% if entry.type == 'rss' %}{% if is_hu_page %}Magyar szakmai jegyzetek – RSS / Atom{% else %}English Engineering Notes – RSS / Atom{% endif %}{% else %}{{ entry.type }}{% endif %}"
           {% assign link_types = '' %}
 
           {% unless entry.noblank %}
